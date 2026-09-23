@@ -54,3 +54,42 @@ services:
       kafka-topics.sh --create --if-not-exists --bootstrap-server kafka-1:9092 --topic $${KAFKA_TOPIC} --partitions $${KAFKA_NUM_PARTITIONS} --replication-factor $${KAFKA_REPLICATION_FACTOR};
       echo 'Tópico $${KAFKA_TOPIC} criado com sucesso!'
       "
+
+  sensor-1:
+    build: ./producer
+    container_name: sensor-1
+    depends_on:
+      - kafka-1
+      - kafka-2
+      - kafka-3
+    env_file:
+      - .env
+    environment:
+      SENSOR_ID: "sensor-1"
+      KAFKA_BROKERS: "kafka-1:9092,kafka-2:9092,kafka-3:9092"
+
+  sensor-2:
+    build: ./producer
+    container_name: sensor-2
+    depends_on:
+      - kafka-1
+      - kafka-2
+      - kafka-3
+    env_file:
+      - .env
+    environment:
+      SENSOR_ID: "sensor-2"
+      KAFKA_BROKERS: "kafka-1:9092,kafka-2:9092,kafka-3:9092"
+
+  sensor-3:
+    build: ./producer
+    container_name: sensor-3
+    depends_on:
+      - kafka-1
+      - kafka-2
+      - kafka-3
+    env_file:
+      - .env
+    environment:
+      SENSOR_ID: "sensor-3"
+      KAFKA_BROKERS: "kafka-1:9092,kafka-2:9092,kafka-3:9092"
