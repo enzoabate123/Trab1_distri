@@ -51,6 +51,7 @@ def main():
         
         # Envia usando sensor_id como chave para manter ordem por sensor numa partição
         producer.send(topic, key=sensor_id, value=payload)
+        
         producer.flush()
         
         print(f"[{sensor_id}] Enviado: {payload}")
