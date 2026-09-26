@@ -1,0 +1,24 @@
+docker compose exec -T kafka-1 /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server kafka-1:9092 --describe --group "processadores"
+
+GROUP           TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                             HOST            CLIENT-ID
+processadores   dados-sensores  3          1678            1678            0               kafka-python-2.2.3-92dc53f9-2d4e-4781-bfc4-744b2852921f /172.18.0.9     kafka-python-2.2.3
+processadores   dados-sensores  4          1576            1576            0               kafka-python-2.2.3-92dc53f9-2d4e-4781-bfc4-744b2852921f /172.18.0.9     kafka-python-2.2.3
+processadores   dados-sensores  5          1635            1636            1               kafka-python-2.2.3-92dc53f9-2d4e-4781-bfc4-744b2852921f /172.18.0.9     kafka-python-2.2.3
+processadores   dados-sensores  0          1614            1615            1               kafka-python-2.2.3-519fe9b4-8db7-4368-ba97-12037d8261e2 /172.18.0.8     kafka-python-2.2.3
+processadores   dados-sensores  1          13189           13192           3               kafka-python-2.2.3-519fe9b4-8db7-4368-ba97-12037d8261e2 /172.18.0.8     kafka-python-2.2.3
+processadores   dados-sensores  2          7332            7333            1               kafka-python-2.2.3-519fe9b4-8db7-4368-ba97-12037d8261e2 /172.18.0.8     kafka-python-2.2.3
+docker compose run --rm --no-deps -T consumer python -c 'import os, sqlite3; c = sqlite3.connect("file:" + os.environ["DB_PATH"] + "?mode=ro", uri=True); print("Total de alertas:", c.execute("SELECT COUNT(*) FROM alertas").fetchone()[0]); print("Ultimos 10: id, sensor, temperatura, vibracao, motivo, criado_em"); [print(row) for row in c.execute("SELECT * FROM alertas ORDER BY id DESC LIMIT 10")]; c.close()'
+ Container trab1_distri-consumer-run-a3d7380c60be Creating 
+ Container trab1_distri-consumer-run-a3d7380c60be Created 
+Total de alertas: 10010
+Ultimos 10: id, sensor, temperatura, vibracao, motivo, criado_em
+(10010, 'sensor-3', 39.06, 8.73, 'vibracao', '2026-09-26 01:06:39')
+(10009, 'sensor-2', 81.43, 4.34, 'temperatura', '2026-09-26 01:06:35')
+(10008, 'sensor-2', 61.0, 9.13, 'vibracao', '2026-09-26 01:06:31')
+(10007, 'sensor-3', 89.25, 1.69, 'temperatura', '2026-09-26 01:06:30')
+(10006, 'sensor-1', 39.27, 8.22, 'vibracao', '2026-09-26 01:06:30')
+(10005, 'sensor-2', 93.58, 5.08, 'temperatura', '2026-09-26 01:06:29')
+(10004, 'sensor-3', 87.75, 5.64, 'temperatura', '2026-09-26 01:06:27')
+(10003, 'sensor-2', 80.81, 3.98, 'temperatura', '2026-09-26 01:06:27')
+(10002, 'sensor-3', 25.49, 8.1, 'vibracao', '2026-09-26 01:06:25')
+(10001, 'sensor-3', 90.33, 1.07, 'temperatura', '2026-09-26 01:06:22')

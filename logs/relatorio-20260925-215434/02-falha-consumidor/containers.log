@@ -1,0 +1,706 @@
+kafka-init  | 2026-09-26T00:54:42.790817781Z Aguardando Kafka iniciar...
+kafka-init  | 2026-09-26T00:54:47.434631265Z Tópico dados-sensores pronto
+sensor-3    | 2026-09-26T00:54:06.778077727Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:06.776224', 'sensor_id': 'sensor-3', 'temperatura': 74.41, 'vibracao': 4.44}
+sensor-3    | 2026-09-26T00:54:08.780544563Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:08.777942', 'sensor_id': 'sensor-3', 'temperatura': 37.43, 'vibracao': 4.49}
+sensor-3    | 2026-09-26T00:54:10.782573698Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:10.780475', 'sensor_id': 'sensor-3', 'temperatura': 85.41, 'vibracao': 3.6}
+sensor-3    | 2026-09-26T00:54:12.785901368Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:12.782477', 'sensor_id': 'sensor-3', 'temperatura': 58.14, 'vibracao': 5.04}
+sensor-3    | 2026-09-26T00:54:14.787439763Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:14.785812', 'sensor_id': 'sensor-3', 'temperatura': 61.48, 'vibracao': 6.85}
+sensor-3    | 2026-09-26T00:54:18.327156342Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:18.324654', 'sensor_id': 'sensor-3', 'temperatura': 56.13, 'vibracao': 3.71}
+sensor-3    | 2026-09-26T00:54:20.328881377Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:20.327030', 'sensor_id': 'sensor-3', 'temperatura': 87.52, 'vibracao': 2.4}
+sensor-3    | 2026-09-26T00:54:22.331270167Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:22.328785', 'sensor_id': 'sensor-3', 'temperatura': 44.58, 'vibracao': 4.98}
+sensor-3    | 2026-09-26T00:54:24.333107471Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:24.331154', 'sensor_id': 'sensor-3', 'temperatura': 41.62, 'vibracao': 3.51}
+sensor-3    | 2026-09-26T00:54:26.334401853Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:26.332949', 'sensor_id': 'sensor-3', 'temperatura': 41.34, 'vibracao': 1.39}
+sensor-3    | 2026-09-26T00:54:28.337458915Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:28.334336', 'sensor_id': 'sensor-3', 'temperatura': 37.05, 'vibracao': 2.37}
+sensor-3    | 2026-09-26T00:54:30.339745564Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:30.337424', 'sensor_id': 'sensor-3', 'temperatura': 53.98, 'vibracao': 0.48}
+sensor-3    | 2026-09-26T00:54:32.341910134Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:32.339603', 'sensor_id': 'sensor-3', 'temperatura': 80.2, 'vibracao': 8.51}
+sensor-3    | 2026-09-26T00:54:34.343589051Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:34.341774', 'sensor_id': 'sensor-3', 'temperatura': 46.38, 'vibracao': 9.34}
+sensor-3    | 2026-09-26T00:54:36.345830530Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:36.343533', 'sensor_id': 'sensor-3', 'temperatura': 53.81, 'vibracao': 8.96}
+sensor-3    | 2026-09-26T00:54:38.348480643Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:38.345730', 'sensor_id': 'sensor-3', 'temperatura': 28.11, 'vibracao': 1.36}
+sensor-2    | 2026-09-26T00:54:07.271138209Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:07.268917', 'sensor_id': 'sensor-2', 'temperatura': 70.43, 'vibracao': 1.3}
+sensor-2    | 2026-09-26T00:54:09.273010215Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:09.270971', 'sensor_id': 'sensor-2', 'temperatura': 74.14, 'vibracao': 2.71}
+sensor-2    | 2026-09-26T00:54:11.275385559Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:11.272846', 'sensor_id': 'sensor-2', 'temperatura': 32.5, 'vibracao': 1.72}
+sensor-2    | 2026-09-26T00:54:13.277200427Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:13.275167', 'sensor_id': 'sensor-2', 'temperatura': 57.47, 'vibracao': 6.61}
+sensor-2    | 2026-09-26T00:54:15.280755383Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:15.277143', 'sensor_id': 'sensor-2', 'temperatura': 94.29, 'vibracao': 8.26}
+sensor-2    | 2026-09-26T00:54:18.821001791Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:18.817996', 'sensor_id': 'sensor-2', 'temperatura': 62.95, 'vibracao': 7.58}
+sensor-2    | 2026-09-26T00:54:20.822544849Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:20.820846', 'sensor_id': 'sensor-2', 'temperatura': 62.13, 'vibracao': 1.99}
+sensor-2    | 2026-09-26T00:54:22.824433162Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:22.822443', 'sensor_id': 'sensor-2', 'temperatura': 73.92, 'vibracao': 3.6}
+sensor-2    | 2026-09-26T00:54:24.826467079Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:24.824290', 'sensor_id': 'sensor-2', 'temperatura': 79.83, 'vibracao': 1.79}
+sensor-2    | 2026-09-26T00:54:26.828392030Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:26.826414', 'sensor_id': 'sensor-2', 'temperatura': 66.94, 'vibracao': 0.88}
+sensor-2    | 2026-09-26T00:54:28.831765650Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:28.828374', 'sensor_id': 'sensor-2', 'temperatura': 91.14, 'vibracao': 6.94}
+sensor-3    | 2026-09-26T00:54:40.350700255Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:40.348388', 'sensor_id': 'sensor-3', 'temperatura': 93.02, 'vibracao': 7.22}
+sensor-3    | 2026-09-26T00:54:42.353542621Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:42.350600', 'sensor_id': 'sensor-3', 'temperatura': 57.13, 'vibracao': 2.88}
+sensor-3    | 2026-09-26T00:54:44.356341831Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:44.353453', 'sensor_id': 'sensor-3', 'temperatura': 33.58, 'vibracao': 9.48}
+sensor-3    | 2026-09-26T00:54:46.358652693Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:46.356279', 'sensor_id': 'sensor-3', 'temperatura': 88.76, 'vibracao': 8.21}
+sensor-3    | 2026-09-26T00:54:49.914304046Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:49.912002', 'sensor_id': 'sensor-3', 'temperatura': 46.85, 'vibracao': 9.73}
+sensor-3    | 2026-09-26T00:54:51.916111196Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:51.914226', 'sensor_id': 'sensor-3', 'temperatura': 45.36, 'vibracao': 9.95}
+sensor-3    | 2026-09-26T00:54:53.917952094Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:53.916018', 'sensor_id': 'sensor-3', 'temperatura': 29.69, 'vibracao': 2.74}
+sensor-3    | 2026-09-26T00:54:55.920169174Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:55.917886', 'sensor_id': 'sensor-3', 'temperatura': 24.14, 'vibracao': 0.95}
+sensor-3    | 2026-09-26T00:54:57.924036734Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:57.920220', 'sensor_id': 'sensor-3', 'temperatura': 84.73, 'vibracao': 0.4}
+sensor-3    | 2026-09-26T00:54:59.925819993Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:54:59.923960', 'sensor_id': 'sensor-3', 'temperatura': 84.53, 'vibracao': 2.27}
+sensor-3    | 2026-09-26T00:55:01.927887615Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:01.925918', 'sensor_id': 'sensor-3', 'temperatura': 66.97, 'vibracao': 8.75}
+sensor-3    | 2026-09-26T00:55:03.930942140Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:03.927874', 'sensor_id': 'sensor-3', 'temperatura': 83.18, 'vibracao': 5.54}
+sensor-3    | 2026-09-26T00:55:05.932533865Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:05.930692', 'sensor_id': 'sensor-3', 'temperatura': 90.91, 'vibracao': 5.51}
+sensor-3    | 2026-09-26T00:55:07.934512941Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:07.932421', 'sensor_id': 'sensor-3', 'temperatura': 91.86, 'vibracao': 1.02}
+sensor-3    | 2026-09-26T00:55:09.936643665Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:09.934359', 'sensor_id': 'sensor-3', 'temperatura': 55.18, 'vibracao': 1.46}
+sensor-3    | 2026-09-26T00:55:11.938279643Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:11.936679', 'sensor_id': 'sensor-3', 'temperatura': 44.74, 'vibracao': 8.89}
+sensor-3    | 2026-09-26T00:55:13.943203285Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:13.938458', 'sensor_id': 'sensor-3', 'temperatura': 55.22, 'vibracao': 2.96}
+sensor-3    | 2026-09-26T00:55:15.948482332Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:15.942859', 'sensor_id': 'sensor-3', 'temperatura': 92.45, 'vibracao': 1.82}
+sensor-3    | 2026-09-26T00:55:17.952549218Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:17.948273', 'sensor_id': 'sensor-3', 'temperatura': 73.56, 'vibracao': 9.34}
+sensor-3    | 2026-09-26T00:55:21.494863248Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:21.493157', 'sensor_id': 'sensor-3', 'temperatura': 53.38, 'vibracao': 6.39}
+sensor-3    | 2026-09-26T00:55:23.496519909Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:23.494774', 'sensor_id': 'sensor-3', 'temperatura': 90.67, 'vibracao': 6.93}
+sensor-3    | 2026-09-26T00:55:25.503302796Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:25.496664', 'sensor_id': 'sensor-3', 'temperatura': 63.56, 'vibracao': 3.43}
+kafka-3     | 2026-09-26T00:55:21.231839363Z [2026-09-26 00:55:21,230] INFO [RaftManager id=3] Disconnecting from node 2 due to request timeout. (org.apache.kafka.clients.NetworkClient)
+kafka-3     | 2026-09-26T00:55:21.238101420Z [2026-09-26 00:55:21,237] INFO [RaftManager id=3] Cancelled in-flight FETCH request with correlation id 16502 due to node 2 being disconnected (elapsed time since creation: 2033ms, elapsed time since send: 2033ms, request timeout: 2000ms) (org.apache.kafka.clients.NetworkClient)
+kafka-3     | 2026-09-26T00:55:21.240124407Z [2026-09-26 00:55:21,239] INFO [RaftManager id=3] Become candidate due to fetch timeout (org.apache.kafka.raft.KafkaRaftClient)
+sensor-1    | 2026-09-26T00:54:06.078199053Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:06.075989', 'sensor_id': 'sensor-1', 'temperatura': 89.31, 'vibracao': 3.93}
+sensor-1    | 2026-09-26T00:54:08.080557548Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:08.078077', 'sensor_id': 'sensor-1', 'temperatura': 64.94, 'vibracao': 2.59}
+sensor-1    | 2026-09-26T00:54:10.083022483Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:10.080471', 'sensor_id': 'sensor-1', 'temperatura': 41.12, 'vibracao': 7.27}
+sensor-1    | 2026-09-26T00:54:12.084881609Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:12.082906', 'sensor_id': 'sensor-1', 'temperatura': 52.12, 'vibracao': 5.28}
+sensor-1    | 2026-09-26T00:54:14.088334862Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:14.084822', 'sensor_id': 'sensor-1', 'temperatura': 85.82, 'vibracao': 9.49}
+sensor-1    | 2026-09-26T00:54:16.090979054Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:16.088254', 'sensor_id': 'sensor-1', 'temperatura': 62.25, 'vibracao': 3.1}
+sensor-1    | 2026-09-26T00:54:19.630463780Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:19.628227', 'sensor_id': 'sensor-1', 'temperatura': 76.21, 'vibracao': 8.39}
+kafka-2     | 2026-09-26T00:54:18.421856441Z [2026-09-26 00:54:18,418] INFO [RaftManager id=2] Node 1 disconnected. (org.apache.kafka.clients.NetworkClient)
+kafka-2     | 2026-09-26T00:54:18.424357259Z [2026-09-26 00:54:18,424] INFO [RaftManager id=2] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+kafka-2     | 2026-09-26T00:54:46.995427652Z [2026-09-26 00:54:46,995] INFO [NodeToControllerChannelManager id=2 name=forwarding] Client requested disconnect from node 3 (org.apache.kafka.clients.NetworkClient)
+kafka-2     | 2026-09-26T00:54:46.998105300Z [2026-09-26 00:54:46,997] INFO [broker-2-to-controller-forwarding-channel-manager]: Recorded new KRaft controller, from now on will use node kafka-2:9093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+kafka-2     | 2026-09-26T00:55:21.334496073Z [2026-09-26 00:55:21,334] INFO [RaftManager id=2] Completed transition to Unattached(epoch=131, voters=[1, 2, 3], electionTimeoutMs=1531) from Leader(localId=2, epoch=130, epochStartOffset=25747, highWatermark=Optional[LogOffsetMetadata(offset=27067, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947242)])], voterStates={1=ReplicaState(nodeId=1, endOffset=Optional[LogOffsetMetadata(offset=27067, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947242)])], lastFetchTimestamp=1790384121237, lastCaughtUpTimestamp=1790384121237, hasAcknowledgedLeader=true), 2=ReplicaState(nodeId=2, endOffset=Optional[LogOffsetMetadata(offset=27067, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947242)])], lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=true), 3=ReplicaState(nodeId=3, endOffset=Optional[LogOffsetMetadata(offset=27066, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947170)])], lastFetchTimestamp=1790384121226, lastCaughtUpTimestamp=1790384119195, hasAcknowledgedLeader=true)}) (org.apache.kafka.raft.QuorumState)
+kafka-2     | 2026-09-26T00:55:21.336367647Z [2026-09-26 00:55:21,336] INFO [RaftManager id=2] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=131, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 131 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-2     | 2026-09-26T00:55:21.455891844Z [2026-09-26 00:55:21,455] INFO [RaftManager id=2] Completed transition to Unattached(epoch=132, voters=[1, 2, 3], electionTimeoutMs=1385) from Unattached(epoch=131, voters=[1, 2, 3], electionTimeoutMs=1531) (org.apache.kafka.raft.QuorumState)
+kafka-2     | 2026-09-26T00:55:21.456150796Z [2026-09-26 00:55:21,455] INFO [RaftManager id=2] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=132, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 132 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-2     | 2026-09-26T00:55:21.571812312Z [2026-09-26 00:55:21,571] INFO [RaftManager id=2] Completed transition to Unattached(epoch=133, voters=[1, 2, 3], electionTimeoutMs=1266) from Unattached(epoch=132, voters=[1, 2, 3], electionTimeoutMs=1385) (org.apache.kafka.raft.QuorumState)
+kafka-2     | 2026-09-26T00:55:21.571999127Z [2026-09-26 00:55:21,571] INFO [RaftManager id=2] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=133, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 133 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-2     | 2026-09-26T00:55:21.587683390Z [2026-09-26 00:55:21,587] INFO [RaftManager id=2] Completed transition to Unattached(epoch=134, voters=[1, 2, 3], electionTimeoutMs=1250) from Unattached(epoch=133, voters=[1, 2, 3], electionTimeoutMs=1266) (org.apache.kafka.raft.QuorumState)
+kafka-2     | 2026-09-26T00:55:21.587807679Z [2026-09-26 00:55:21,587] INFO [RaftManager id=2] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=134, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 134 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-2     | 2026-09-26T00:55:22.565755616Z [2026-09-26 00:55:22,565] INFO [NodeToControllerChannelManager id=2 name=heartbeat] Client requested disconnect from node 2 (org.apache.kafka.clients.NetworkClient)
+kafka-2     | 2026-09-26T00:55:22.607092422Z [2026-09-26 00:55:22,606] INFO [RaftManager id=2] Completed transition to Unattached(epoch=135, voters=[1, 2, 3], electionTimeoutMs=233) from Unattached(epoch=134, voters=[1, 2, 3], electionTimeoutMs=1250) (org.apache.kafka.raft.QuorumState)
+kafka-2     | 2026-09-26T00:55:22.607327297Z [2026-09-26 00:55:22,607] INFO [RaftManager id=2] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=135, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 135 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-2     | 2026-09-26T00:55:22.839119317Z [2026-09-26 00:55:22,838] INFO [RaftManager id=2] Completed transition to CandidateState(localId=2, epoch=136, retries=1, voteStates={1=UNRECORDED, 2=GRANTED, 3=UNRECORDED}, highWatermark=Optional[LogOffsetMetadata(offset=27067, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947242)])], electionTimeoutMs=1883) from Unattached(epoch=135, voters=[1, 2, 3], electionTimeoutMs=233) (org.apache.kafka.raft.QuorumState)
+kafka-2     | 2026-09-26T00:55:22.870878793Z [2026-09-26 00:55:22,870] INFO [RaftManager id=2] Completed transition to Leader(localId=2, epoch=136, epochStartOffset=27067, highWatermark=Optional.empty, voterStates={1=ReplicaState(nodeId=1, endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=false), 2=ReplicaState(nodeId=2, endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=true), 3=ReplicaState(nodeId=3, endOffset=Optional.empty, lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=false)}) from CandidateState(localId=2, epoch=136, retries=1, voteStates={1=GRANTED, 2=GRANTED, 3=UNRECORDED}, highWatermark=Optional[LogOffsetMetadata(offset=27067, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947242)])], electionTimeoutMs=1883) (org.apache.kafka.raft.QuorumState)
+kafka-2     | 2026-09-26T00:55:22.871322942Z [2026-09-26 00:55:22,871] INFO [broker-2-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node kafka-2:9093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+sensor-1    | 2026-09-26T00:54:21.632561123Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:21.630372', 'sensor_id': 'sensor-1', 'temperatura': 66.38, 'vibracao': 8.02}
+kafka-1     | 2026-09-26T00:54:18.254251873Z [2026-09-26 00:54:18,253] INFO [RaftManager id=1] Node 3 disconnected. (org.apache.kafka.clients.NetworkClient)
+kafka-1     | 2026-09-26T00:55:21.321593572Z [2026-09-26 00:55:21,321] INFO [RaftManager id=1] Completed transition to Unattached(epoch=131, voters=[1, 2, 3], electionTimeoutMs=1833) from FollowerState(fetchTimeoutMs=2000, epoch=130, leaderId=2, voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=27066, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+kafka-1     | 2026-09-26T00:55:21.323697927Z [2026-09-26 00:55:21,323] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=131, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 131 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-1     | 2026-09-26T00:55:21.453960123Z [2026-09-26 00:55:21,453] INFO [RaftManager id=1] Completed transition to Unattached(epoch=132, voters=[1, 2, 3], electionTimeoutMs=1688) from Unattached(epoch=131, voters=[1, 2, 3], electionTimeoutMs=1833) (org.apache.kafka.raft.QuorumState)
+kafka-1     | 2026-09-26T00:55:21.454187004Z [2026-09-26 00:55:21,454] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=132, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 132 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-1     | 2026-09-26T00:55:21.573834252Z [2026-09-26 00:55:21,573] INFO [RaftManager id=1] Completed transition to Unattached(epoch=133, voters=[1, 2, 3], electionTimeoutMs=1569) from Unattached(epoch=132, voters=[1, 2, 3], electionTimeoutMs=1688) (org.apache.kafka.raft.QuorumState)
+kafka-1     | 2026-09-26T00:55:21.574076740Z [2026-09-26 00:55:21,573] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=133, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 133 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-1     | 2026-09-26T00:55:21.590256353Z [2026-09-26 00:55:21,590] INFO [RaftManager id=1] Completed transition to Unattached(epoch=134, voters=[1, 2, 3], electionTimeoutMs=1553) from Unattached(epoch=133, voters=[1, 2, 3], electionTimeoutMs=1569) (org.apache.kafka.raft.QuorumState)
+kafka-1     | 2026-09-26T00:55:21.590470291Z [2026-09-26 00:55:21,590] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=134, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 134 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-1     | 2026-09-26T00:55:22.609864286Z [2026-09-26 00:55:22,609] INFO [RaftManager id=1] Completed transition to Unattached(epoch=135, voters=[1, 2, 3], electionTimeoutMs=536) from Unattached(epoch=134, voters=[1, 2, 3], electionTimeoutMs=1553) (org.apache.kafka.raft.QuorumState)
+kafka-1     | 2026-09-26T00:55:22.610119527Z [2026-09-26 00:55:22,609] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=135, candidateId=3, lastOffsetEpoch=130, lastOffset=27066)])]) with epoch 135 is rejected (org.apache.kafka.raft.KafkaRaftClient)
+kafka-1     | 2026-09-26T00:55:22.752476438Z [2026-09-26 00:55:22,751] INFO [NodeToControllerChannelManager id=1 name=heartbeat] Client requested disconnect from node 2 (org.apache.kafka.clients.NetworkClient)
+kafka-1     | 2026-09-26T00:55:22.853954015Z [2026-09-26 00:55:22,853] INFO [RaftManager id=1] Completed transition to Unattached(epoch=136, voters=[1, 2, 3], electionTimeoutMs=287) from Unattached(epoch=135, voters=[1, 2, 3], electionTimeoutMs=536) (org.apache.kafka.raft.QuorumState)
+kafka-1     | 2026-09-26T00:55:22.860463033Z [2026-09-26 00:55:22,860] INFO [RaftManager id=1] Completed transition to Voted(epoch=136, votedId=2, voters=[1, 2, 3], electionTimeoutMs=1978) from Unattached(epoch=136, voters=[1, 2, 3], electionTimeoutMs=287) (org.apache.kafka.raft.QuorumState)
+kafka-1     | 2026-09-26T00:55:22.860563435Z [2026-09-26 00:55:22,860] INFO [RaftManager id=1] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=136, candidateId=2, lastOffsetEpoch=130, lastOffset=27067)])]) with epoch 136 is granted (org.apache.kafka.raft.KafkaRaftClient)
+kafka-1     | 2026-09-26T00:55:22.894554887Z [2026-09-26 00:55:22,894] INFO [RaftManager id=1] Completed transition to FollowerState(fetchTimeoutMs=2000, epoch=136, leaderId=2, voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=27066, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) from Voted(epoch=136, votedId=2, voters=[1, 2, 3], electionTimeoutMs=1978) (org.apache.kafka.raft.QuorumState)
+kafka-1     | 2026-09-26T00:55:22.955118871Z [2026-09-26 00:55:22,954] INFO [broker-1-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node kafka-2:9093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+kafka-2     | 2026-09-26T00:55:22.873723746Z [2026-09-26 00:55:22,873] INFO [NodeToControllerChannelManager id=2 name=heartbeat] Client requested disconnect from node 2 (org.apache.kafka.clients.NetworkClient)
+kafka-2     | 2026-09-26T00:55:22.873837472Z [2026-09-26 00:55:22,873] INFO [broker-2-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node kafka-2:9093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+kafka-2     | 2026-09-26T00:55:22.911750989Z [2026-09-26 00:55:22,911] INFO [RaftManager id=2] High watermark set to LogOffsetMetadata(offset=27068, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947348)]) for the first time for epoch 136 based on indexOfHw 1 and voters [ReplicaState(nodeId=1, endOffset=Optional[LogOffsetMetadata(offset=27068, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947348)])], lastFetchTimestamp=1790384122911, lastCaughtUpTimestamp=1790384122911, hasAcknowledgedLeader=true), ReplicaState(nodeId=2, endOffset=Optional[LogOffsetMetadata(offset=27068, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947348)])], lastFetchTimestamp=-1, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=true), ReplicaState(nodeId=3, endOffset=Optional[LogOffsetMetadata(offset=27066, metadata=Optional[(segmentBaseOffset=0,relativePositionInSegment=1947170)])], lastFetchTimestamp=1790384122899, lastCaughtUpTimestamp=-1, hasAcknowledgedLeader=true)] (org.apache.kafka.raft.LeaderState)
+kafka-2     | 2026-09-26T00:55:22.924378359Z [2026-09-26 00:55:22,924] INFO [broker-2-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node kafka-2:9093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+sensor-2    | 2026-09-26T00:54:30.833915198Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:30.831663', 'sensor_id': 'sensor-2', 'temperatura': 50.42, 'vibracao': 5.72}
+sensor-2    | 2026-09-26T00:54:32.836496775Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:32.833787', 'sensor_id': 'sensor-2', 'temperatura': 78.84, 'vibracao': 9.5}
+sensor-2    | 2026-09-26T00:54:34.838786466Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:34.836413', 'sensor_id': 'sensor-2', 'temperatura': 27.84, 'vibracao': 3.66}
+sensor-2    | 2026-09-26T00:54:36.840489609Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:36.838680', 'sensor_id': 'sensor-2', 'temperatura': 64.6, 'vibracao': 0.12}
+consumer-2  | 2026-09-26T00:54:08.081816773Z partição=5 offset=349 dados={'timestamp': '2026-09-26T00:54:08.078077', 'sensor_id': 'sensor-1', 'temperatura': 64.94, 'vibracao': 2.59}
+consumer-2  | 2026-09-26T00:54:10.783896508Z partição=5 offset=350 dados={'timestamp': '2026-09-26T00:54:10.780475', 'sensor_id': 'sensor-3', 'temperatura': 85.41, 'vibracao': 3.6}
+consumer-2  | 2026-09-26T00:54:10.783933041Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:54:11.276949165Z partição=5 offset=351 dados={'timestamp': '2026-09-26T00:54:11.272846', 'sensor_id': 'sensor-2', 'temperatura': 32.5, 'vibracao': 1.72}
+consumer-2  | 2026-09-26T00:54:12.087049822Z partição=5 offset=352 dados={'timestamp': '2026-09-26T00:54:12.082906', 'sensor_id': 'sensor-1', 'temperatura': 52.12, 'vibracao': 5.28}
+consumer-2  | 2026-09-26T00:54:13.278201192Z partição=3 offset=352 dados={'timestamp': '2026-09-26T00:54:13.275167', 'sensor_id': 'sensor-2', 'temperatura': 57.47, 'vibracao': 6.61}
+consumer-2  | 2026-09-26T00:54:14.090201104Z partição=5 offset=353 dados={'timestamp': '2026-09-26T00:54:14.084822', 'sensor_id': 'sensor-1', 'temperatura': 85.82, 'vibracao': 9.49}
+consumer-2  | 2026-09-26T00:54:14.090228409Z ANOMALIA: temperatura, vibracao
+consumer-2  | 2026-09-26T00:54:18.329267186Z partição=3 offset=353 dados={'timestamp': '2026-09-26T00:54:18.324654', 'sensor_id': 'sensor-3', 'temperatura': 56.13, 'vibracao': 3.71}
+consumer-2  | 2026-09-26T00:54:22.332862581Z partição=4 offset=335 dados={'timestamp': '2026-09-26T00:54:22.328785', 'sensor_id': 'sensor-3', 'temperatura': 44.58, 'vibracao': 4.98}
+consumer-2  | 2026-09-26T00:54:23.635450011Z partição=4 offset=336 dados={'timestamp': '2026-09-26T00:54:23.632434', 'sensor_id': 'sensor-1', 'temperatura': 40.54, 'vibracao': 0.74}
+consumer-2  | 2026-09-26T00:54:24.334146303Z partição=4 offset=337 dados={'timestamp': '2026-09-26T00:54:24.331154', 'sensor_id': 'sensor-3', 'temperatura': 41.62, 'vibracao': 3.51}
+consumer-2  | 2026-09-26T00:54:24.827942628Z partição=3 offset=354 dados={'timestamp': '2026-09-26T00:54:24.824290', 'sensor_id': 'sensor-2', 'temperatura': 79.83, 'vibracao': 1.79}
+consumer-2  | 2026-09-26T00:54:26.829869768Z partição=5 offset=354 dados={'timestamp': '2026-09-26T00:54:26.826414', 'sensor_id': 'sensor-2', 'temperatura': 66.94, 'vibracao': 0.88}
+consumer-2  | 2026-09-26T00:54:27.644326366Z partição=5 offset=355 dados={'timestamp': '2026-09-26T00:54:27.636005', 'sensor_id': 'sensor-1', 'temperatura': 44.72, 'vibracao': 4.52}
+consumer-2  | 2026-09-26T00:54:28.649409346Z partição=4 offset=338 dados={'timestamp': '2026-09-26T00:54:28.334336', 'sensor_id': 'sensor-3', 'temperatura': 37.05, 'vibracao': 2.37}
+consumer-2  | 2026-09-26T00:54:34.344699074Z partição=4 offset=339 dados={'timestamp': '2026-09-26T00:54:34.341774', 'sensor_id': 'sensor-3', 'temperatura': 46.38, 'vibracao': 9.34}
+consumer-2  | 2026-09-26T00:54:34.344719611Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:54:34.841456892Z partição=5 offset=356 dados={'timestamp': '2026-09-26T00:54:34.836413', 'sensor_id': 'sensor-2', 'temperatura': 27.84, 'vibracao': 3.66}
+consumer-2  | 2026-09-26T00:54:37.655203292Z partição=4 offset=340 dados={'timestamp': '2026-09-26T00:54:37.651535', 'sensor_id': 'sensor-1', 'temperatura': 21.92, 'vibracao': 3.35}
+consumer-2  | 2026-09-26T00:54:40.352161869Z partição=3 offset=355 dados={'timestamp': '2026-09-26T00:54:40.348388', 'sensor_id': 'sensor-3', 'temperatura': 93.02, 'vibracao': 7.22}
+consumer-2  | 2026-09-26T00:54:40.352187433Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:54:40.849141758Z partição=5 offset=357 dados={'timestamp': '2026-09-26T00:54:40.843235', 'sensor_id': 'sensor-2', 'temperatura': 70.49, 'vibracao': 4.29}
+consumer-2  | 2026-09-26T00:54:41.658639628Z partição=4 offset=341 dados={'timestamp': '2026-09-26T00:54:41.655127', 'sensor_id': 'sensor-1', 'temperatura': 82.84, 'vibracao': 0.99}
+consumer-2  | 2026-09-26T00:54:41.658659015Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:54:42.355063440Z partição=5 offset=358 dados={'timestamp': '2026-09-26T00:54:42.350600', 'sensor_id': 'sensor-3', 'temperatura': 57.13, 'vibracao': 2.88}
+consumer-2  | 2026-09-26T00:54:42.849053009Z partição=4 offset=342 dados={'timestamp': '2026-09-26T00:54:42.845762', 'sensor_id': 'sensor-2', 'temperatura': 68.45, 'vibracao': 0.14}
+consumer-2  | 2026-09-26T00:54:44.357474375Z partição=3 offset=356 dados={'timestamp': '2026-09-26T00:54:44.353453', 'sensor_id': 'sensor-3', 'temperatura': 33.58, 'vibracao': 9.48}
+consumer-2  | 2026-09-26T00:54:44.357500731Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:54:44.850865201Z partição=3 offset=357 dados={'timestamp': '2026-09-26T00:54:44.847417', 'sensor_id': 'sensor-2', 'temperatura': 32.5, 'vibracao': 9.46}
+sensor-1    | 2026-09-26T00:54:23.634346656Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:23.632434', 'sensor_id': 'sensor-1', 'temperatura': 40.54, 'vibracao': 0.74}
+sensor-1    | 2026-09-26T00:54:25.636089745Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:25.634221', 'sensor_id': 'sensor-1', 'temperatura': 81.13, 'vibracao': 1.05}
+sensor-1    | 2026-09-26T00:54:27.641190863Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:27.636005', 'sensor_id': 'sensor-1', 'temperatura': 44.72, 'vibracao': 4.52}
+sensor-1    | 2026-09-26T00:54:29.645283079Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:29.641108', 'sensor_id': 'sensor-1', 'temperatura': 27.1, 'vibracao': 9.76}
+sensor-1    | 2026-09-26T00:54:31.647432151Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:31.645170', 'sensor_id': 'sensor-1', 'temperatura': 89.09, 'vibracao': 4.05}
+sensor-1    | 2026-09-26T00:54:33.649496510Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:33.647331', 'sensor_id': 'sensor-1', 'temperatura': 61.01, 'vibracao': 4.3}
+sensor-1    | 2026-09-26T00:54:35.651722016Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:35.649344', 'sensor_id': 'sensor-1', 'temperatura': 64.91, 'vibracao': 1.15}
+sensor-1    | 2026-09-26T00:54:37.653107330Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:37.651535', 'sensor_id': 'sensor-1', 'temperatura': 21.92, 'vibracao': 3.35}
+sensor-1    | 2026-09-26T00:54:39.655267071Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:39.653069', 'sensor_id': 'sensor-1', 'temperatura': 37.96, 'vibracao': 1.76}
+sensor-1    | 2026-09-26T00:54:41.656854426Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:41.655127', 'sensor_id': 'sensor-1', 'temperatura': 82.84, 'vibracao': 0.99}
+sensor-1    | 2026-09-26T00:54:43.658812944Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:43.656793', 'sensor_id': 'sensor-1', 'temperatura': 75.5, 'vibracao': 7.19}
+sensor-1    | 2026-09-26T00:54:45.661443788Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:45.658722', 'sensor_id': 'sensor-1', 'temperatura': 26.5, 'vibracao': 5.88}
+sensor-1    | 2026-09-26T00:54:47.663913356Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:47.661372', 'sensor_id': 'sensor-1', 'temperatura': 64.68, 'vibracao': 5.22}
+sensor-1    | 2026-09-26T00:54:51.219887355Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:51.217243', 'sensor_id': 'sensor-1', 'temperatura': 23.2, 'vibracao': 6.33}
+sensor-1    | 2026-09-26T00:54:53.221474510Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:53.219732', 'sensor_id': 'sensor-1', 'temperatura': 53.93, 'vibracao': 5.27}
+sensor-1    | 2026-09-26T00:54:55.223327725Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:55.221410', 'sensor_id': 'sensor-1', 'temperatura': 70.05, 'vibracao': 6.82}
+sensor-1    | 2026-09-26T00:54:57.225675390Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:57.223251', 'sensor_id': 'sensor-1', 'temperatura': 65.73, 'vibracao': 7.22}
+sensor-1    | 2026-09-26T00:54:59.228645708Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:54:59.225781', 'sensor_id': 'sensor-1', 'temperatura': 83.96, 'vibracao': 5.71}
+sensor-2    | 2026-09-26T00:54:38.843436226Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:38.840418', 'sensor_id': 'sensor-2', 'temperatura': 20.29, 'vibracao': 8.99}
+sensor-2    | 2026-09-26T00:54:40.845810362Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:40.843235', 'sensor_id': 'sensor-2', 'temperatura': 70.49, 'vibracao': 4.29}
+sensor-2    | 2026-09-26T00:54:42.847464621Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:42.845762', 'sensor_id': 'sensor-2', 'temperatura': 68.45, 'vibracao': 0.14}
+sensor-2    | 2026-09-26T00:54:44.849898500Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:44.847417', 'sensor_id': 'sensor-2', 'temperatura': 32.5, 'vibracao': 9.46}
+sensor-2    | 2026-09-26T00:54:46.852038096Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:46.849803', 'sensor_id': 'sensor-2', 'temperatura': 43.31, 'vibracao': 6.37}
+sensor-2    | 2026-09-26T00:54:50.407267088Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:50.405389', 'sensor_id': 'sensor-2', 'temperatura': 40.13, 'vibracao': 3.83}
+sensor-2    | 2026-09-26T00:54:52.409380708Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:52.407171', 'sensor_id': 'sensor-2', 'temperatura': 34.41, 'vibracao': 8.62}
+sensor-2    | 2026-09-26T00:54:54.410964232Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:54.409327', 'sensor_id': 'sensor-2', 'temperatura': 31.1, 'vibracao': 2.18}
+sensor-2    | 2026-09-26T00:54:56.412697713Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:56.411074', 'sensor_id': 'sensor-2', 'temperatura': 77.57, 'vibracao': 9.96}
+sensor-2    | 2026-09-26T00:54:58.421462174Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:54:58.412679', 'sensor_id': 'sensor-2', 'temperatura': 40.21, 'vibracao': 9.51}
+sensor-2    | 2026-09-26T00:55:00.423272940Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:00.421261', 'sensor_id': 'sensor-2', 'temperatura': 68.58, 'vibracao': 8.71}
+sensor-2    | 2026-09-26T00:55:02.425581281Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:02.423221', 'sensor_id': 'sensor-2', 'temperatura': 34.46, 'vibracao': 0.59}
+sensor-2    | 2026-09-26T00:55:04.427898708Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:04.425672', 'sensor_id': 'sensor-2', 'temperatura': 82.77, 'vibracao': 1.13}
+sensor-2    | 2026-09-26T00:55:06.429938655Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:06.427800', 'sensor_id': 'sensor-2', 'temperatura': 77.18, 'vibracao': 4.93}
+sensor-2    | 2026-09-26T00:55:08.432254847Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:08.429864', 'sensor_id': 'sensor-2', 'temperatura': 80.38, 'vibracao': 9.28}
+sensor-2    | 2026-09-26T00:55:10.434234954Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:10.432173', 'sensor_id': 'sensor-2', 'temperatura': 84.48, 'vibracao': 6.05}
+sensor-2    | 2026-09-26T00:55:12.436213594Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:12.434094', 'sensor_id': 'sensor-2', 'temperatura': 66.45, 'vibracao': 8.41}
+sensor-2    | 2026-09-26T00:55:14.438329944Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:14.436146', 'sensor_id': 'sensor-2', 'temperatura': 71.79, 'vibracao': 5.33}
+sensor-2    | 2026-09-26T00:55:16.442758378Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:16.438253', 'sensor_id': 'sensor-2', 'temperatura': 38.81, 'vibracao': 0.28}
+sensor-2    | 2026-09-26T00:55:18.450377763Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:18.442773', 'sensor_id': 'sensor-2', 'temperatura': 40.47, 'vibracao': 2.4}
+sensor-2    | 2026-09-26T00:55:21.992910775Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:21.990854', 'sensor_id': 'sensor-2', 'temperatura': 34.45, 'vibracao': 4.8}
+sensor-2    | 2026-09-26T00:55:23.994659748Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:23.992822', 'sensor_id': 'sensor-2', 'temperatura': 50.65, 'vibracao': 0.33}
+sensor-2    | 2026-09-26T00:55:25.997413982Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:25.994707', 'sensor_id': 'sensor-2', 'temperatura': 78.54, 'vibracao': 9.32}
+sensor-2    | 2026-09-26T00:55:28.003271830Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:27.997362', 'sensor_id': 'sensor-2', 'temperatura': 37.99, 'vibracao': 4.92}
+sensor-2    | 2026-09-26T00:55:30.004676623Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:30.002844', 'sensor_id': 'sensor-2', 'temperatura': 88.69, 'vibracao': 0.29}
+sensor-2    | 2026-09-26T00:55:32.014887509Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:32.004713', 'sensor_id': 'sensor-2', 'temperatura': 59.62, 'vibracao': 9.86}
+sensor-2    | 2026-09-26T00:55:34.017327877Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:34.014805', 'sensor_id': 'sensor-2', 'temperatura': 60.35, 'vibracao': 0.26}
+sensor-3    | 2026-09-26T00:55:27.504989543Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:27.502901', 'sensor_id': 'sensor-3', 'temperatura': 29.41, 'vibracao': 8.89}
+sensor-1    | 2026-09-26T00:55:01.230491974Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:01.228505', 'sensor_id': 'sensor-1', 'temperatura': 71.13, 'vibracao': 9.58}
+sensor-1    | 2026-09-26T00:55:03.237393137Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:03.230592', 'sensor_id': 'sensor-1', 'temperatura': 63.92, 'vibracao': 4.51}
+sensor-1    | 2026-09-26T00:55:05.238733592Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:05.236823', 'sensor_id': 'sensor-1', 'temperatura': 82.99, 'vibracao': 8.26}
+sensor-1    | 2026-09-26T00:55:07.244628155Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:07.238734', 'sensor_id': 'sensor-1', 'temperatura': 85.02, 'vibracao': 4.63}
+sensor-1    | 2026-09-26T00:55:09.251795356Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:09.244411', 'sensor_id': 'sensor-1', 'temperatura': 31.46, 'vibracao': 5.5}
+sensor-1    | 2026-09-26T00:55:11.254264068Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:11.251157', 'sensor_id': 'sensor-1', 'temperatura': 65.33, 'vibracao': 0.24}
+sensor-1    | 2026-09-26T00:55:13.260103375Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:13.254149', 'sensor_id': 'sensor-1', 'temperatura': 85.93, 'vibracao': 0.15}
+sensor-1    | 2026-09-26T00:55:15.261798128Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:15.259997', 'sensor_id': 'sensor-1', 'temperatura': 58.93, 'vibracao': 6.67}
+sensor-1    | 2026-09-26T00:55:17.263590907Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:17.261668', 'sensor_id': 'sensor-1', 'temperatura': 66.97, 'vibracao': 9.26}
+sensor-1    | 2026-09-26T00:55:19.265745106Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:19.263618', 'sensor_id': 'sensor-1', 'temperatura': 54.31, 'vibracao': 4.31}
+sensor-1    | 2026-09-26T00:55:22.808741872Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:22.806612', 'sensor_id': 'sensor-1', 'temperatura': 38.46, 'vibracao': 3.7}
+sensor-1    | 2026-09-26T00:55:24.810726672Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:24.808642', 'sensor_id': 'sensor-1', 'temperatura': 45.77, 'vibracao': 7.94}
+sensor-1    | 2026-09-26T00:55:26.812567074Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:26.810717', 'sensor_id': 'sensor-1', 'temperatura': 39.73, 'vibracao': 9.55}
+sensor-1    | 2026-09-26T00:55:28.814928075Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:28.812501', 'sensor_id': 'sensor-1', 'temperatura': 58.33, 'vibracao': 2.22}
+sensor-1    | 2026-09-26T00:55:30.816297563Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:30.814728', 'sensor_id': 'sensor-1', 'temperatura': 30.88, 'vibracao': 8.08}
+sensor-1    | 2026-09-26T00:55:32.818576438Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:32.816187', 'sensor_id': 'sensor-1', 'temperatura': 22.36, 'vibracao': 4.62}
+sensor-1    | 2026-09-26T00:55:34.821183667Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:34.818516', 'sensor_id': 'sensor-1', 'temperatura': 94.78, 'vibracao': 5.12}
+sensor-1    | 2026-09-26T00:55:36.823617915Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:36.821091', 'sensor_id': 'sensor-1', 'temperatura': 69.75, 'vibracao': 0.6}
+sensor-1    | 2026-09-26T00:55:38.825937676Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:38.823480', 'sensor_id': 'sensor-1', 'temperatura': 29.23, 'vibracao': 9.64}
+sensor-1    | 2026-09-26T00:55:40.827935942Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:40.825717', 'sensor_id': 'sensor-1', 'temperatura': 49.46, 'vibracao': 3.17}
+sensor-1    | 2026-09-26T00:55:42.829534508Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:42.827842', 'sensor_id': 'sensor-1', 'temperatura': 76.65, 'vibracao': 7.59}
+sensor-1    | 2026-09-26T00:55:44.831517828Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:44.829444', 'sensor_id': 'sensor-1', 'temperatura': 45.83, 'vibracao': 9.87}
+sensor-1    | 2026-09-26T00:55:46.833420783Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:46.831415', 'sensor_id': 'sensor-1', 'temperatura': 63.19, 'vibracao': 0.72}
+sensor-1    | 2026-09-26T00:55:48.835351795Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:48.833294', 'sensor_id': 'sensor-1', 'temperatura': 56.62, 'vibracao': 6.01}
+sensor-1    | 2026-09-26T00:55:50.837868035Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:50.835294', 'sensor_id': 'sensor-1', 'temperatura': 66.25, 'vibracao': 4.11}
+sensor-1    | 2026-09-26T00:55:54.404271181Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:54.401251', 'sensor_id': 'sensor-1', 'temperatura': 29.78, 'vibracao': 9.47}
+sensor-1    | 2026-09-26T00:55:56.406198703Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:56.404134', 'sensor_id': 'sensor-1', 'temperatura': 55.21, 'vibracao': 7.16}
+sensor-1    | 2026-09-26T00:55:58.408393010Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:55:58.406146', 'sensor_id': 'sensor-1', 'temperatura': 26.1, 'vibracao': 0.28}
+sensor-1    | 2026-09-26T00:56:00.410668610Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:00.408299', 'sensor_id': 'sensor-1', 'temperatura': 78.65, 'vibracao': 2.45}
+sensor-1    | 2026-09-26T00:56:02.412448693Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:02.410542', 'sensor_id': 'sensor-1', 'temperatura': 67.69, 'vibracao': 3.52}
+sensor-1    | 2026-09-26T00:56:04.414093546Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:04.412414', 'sensor_id': 'sensor-1', 'temperatura': 69.04, 'vibracao': 6.17}
+sensor-1    | 2026-09-26T00:56:06.416343750Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:06.413953', 'sensor_id': 'sensor-1', 'temperatura': 42.53, 'vibracao': 4.33}
+sensor-1    | 2026-09-26T00:56:08.417989010Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:08.416239', 'sensor_id': 'sensor-1', 'temperatura': 42.82, 'vibracao': 9.64}
+sensor-1    | 2026-09-26T00:56:10.419721126Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:10.417901', 'sensor_id': 'sensor-1', 'temperatura': 27.57, 'vibracao': 6.96}
+sensor-1    | 2026-09-26T00:56:12.421380339Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:12.419653', 'sensor_id': 'sensor-1', 'temperatura': 26.83, 'vibracao': 6.06}
+sensor-1    | 2026-09-26T00:56:14.423392888Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:14.421293', 'sensor_id': 'sensor-1', 'temperatura': 86.32, 'vibracao': 7.96}
+sensor-1    | 2026-09-26T00:56:16.425155670Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:16.423343', 'sensor_id': 'sensor-1', 'temperatura': 23.67, 'vibracao': 8.05}
+sensor-1    | 2026-09-26T00:56:18.427755518Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:18.425043', 'sensor_id': 'sensor-1', 'temperatura': 94.01, 'vibracao': 0.78}
+sensor-1    | 2026-09-26T00:56:20.431121379Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:20.427674', 'sensor_id': 'sensor-1', 'temperatura': 48.56, 'vibracao': 7.74}
+sensor-1    | 2026-09-26T00:56:22.432711770Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:22.430991', 'sensor_id': 'sensor-1', 'temperatura': 70.26, 'vibracao': 7.66}
+sensor-1    | 2026-09-26T00:56:25.975720296Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:25.972679', 'sensor_id': 'sensor-1', 'temperatura': 87.01, 'vibracao': 3.76}
+sensor-1    | 2026-09-26T00:56:27.977651638Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:27.975558', 'sensor_id': 'sensor-1', 'temperatura': 23.8, 'vibracao': 8.4}
+sensor-1    | 2026-09-26T00:56:29.981913133Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:29.977615', 'sensor_id': 'sensor-1', 'temperatura': 36.43, 'vibracao': 5.7}
+sensor-1    | 2026-09-26T00:56:31.986719814Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:31.981993', 'sensor_id': 'sensor-1', 'temperatura': 66.25, 'vibracao': 0.59}
+sensor-1    | 2026-09-26T00:56:33.987980707Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:33.986310', 'sensor_id': 'sensor-1', 'temperatura': 78.2, 'vibracao': 2.4}
+sensor-1    | 2026-09-26T00:56:35.990441093Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:35.987996', 'sensor_id': 'sensor-1', 'temperatura': 60.44, 'vibracao': 3.23}
+sensor-1    | 2026-09-26T00:56:37.994499705Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:37.990615', 'sensor_id': 'sensor-1', 'temperatura': 50.53, 'vibracao': 5.68}
+sensor-1    | 2026-09-26T00:56:39.996490724Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:39.994175', 'sensor_id': 'sensor-1', 'temperatura': 22.74, 'vibracao': 7.82}
+sensor-1    | 2026-09-26T00:56:41.998438204Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:41.996357', 'sensor_id': 'sensor-1', 'temperatura': 89.57, 'vibracao': 4.8}
+sensor-1    | 2026-09-26T00:56:44.000519948Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:43.998353', 'sensor_id': 'sensor-1', 'temperatura': 26.58, 'vibracao': 6.37}
+sensor-1    | 2026-09-26T00:56:46.002966682Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:46.000438', 'sensor_id': 'sensor-1', 'temperatura': 86.09, 'vibracao': 5.39}
+sensor-1    | 2026-09-26T00:56:48.006047281Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:48.002900', 'sensor_id': 'sensor-1', 'temperatura': 71.68, 'vibracao': 1.39}
+sensor-1    | 2026-09-26T00:56:50.009576095Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:50.006065', 'sensor_id': 'sensor-1', 'temperatura': 46.63, 'vibracao': 5.59}
+sensor-1    | 2026-09-26T00:56:52.011364202Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:52.009132', 'sensor_id': 'sensor-1', 'temperatura': 66.29, 'vibracao': 0.39}
+sensor-1    | 2026-09-26T00:56:54.013077052Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:54.011310', 'sensor_id': 'sensor-1', 'temperatura': 73.48, 'vibracao': 1.18}
+sensor-1    | 2026-09-26T00:56:57.585852002Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:57.583984', 'sensor_id': 'sensor-1', 'temperatura': 74.03, 'vibracao': 4.14}
+sensor-1    | 2026-09-26T00:56:59.587676454Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:56:59.585786', 'sensor_id': 'sensor-1', 'temperatura': 82.15, 'vibracao': 4.65}
+sensor-1    | 2026-09-26T00:57:01.589813475Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:57:01.587584', 'sensor_id': 'sensor-1', 'temperatura': 85.12, 'vibracao': 8.53}
+sensor-1    | 2026-09-26T00:57:03.592283343Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:57:03.589782', 'sensor_id': 'sensor-1', 'temperatura': 23.92, 'vibracao': 9.56}
+kafka-3     | 2026-09-26T00:55:21.273400956Z [2026-09-26 00:55:21,273] INFO [RaftManager id=3] Completed transition to CandidateState(localId=3, epoch=131, retries=1, voteStates={1=UNRECORDED, 2=UNRECORDED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1377) from FollowerState(fetchTimeoutMs=2000, epoch=130, leaderId=2, voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) (org.apache.kafka.raft.QuorumState)
+kafka-3     | 2026-09-26T00:55:21.339186620Z [2026-09-26 00:55:21,338] INFO [RaftManager id=3] Insufficient remaining votes to become leader (rejected by [1, 2]). We will backoff before retrying election again (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:21.439003991Z [2026-09-26 00:55:21,438] INFO [RaftManager id=3] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:21.444872908Z [2026-09-26 00:55:21,444] INFO [RaftManager id=3] Completed transition to CandidateState(localId=3, epoch=132, retries=2, voteStates={1=UNRECORDED, 2=UNRECORDED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1808) from CandidateState(localId=3, epoch=131, retries=1, voteStates={1=REJECTED, 2=REJECTED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1377) (org.apache.kafka.raft.QuorumState)
+kafka-3     | 2026-09-26T00:55:21.456761109Z [2026-09-26 00:55:21,456] INFO [RaftManager id=3] Insufficient remaining votes to become leader (rejected by [1, 2]). We will backoff before retrying election again (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:21.556997600Z [2026-09-26 00:55:21,556] INFO [RaftManager id=3] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:21.564168797Z [2026-09-26 00:55:21,563] INFO [RaftManager id=3] Completed transition to CandidateState(localId=3, epoch=133, retries=3, voteStates={1=UNRECORDED, 2=UNRECORDED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1074) from CandidateState(localId=3, epoch=132, retries=2, voteStates={1=REJECTED, 2=REJECTED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1808) (org.apache.kafka.raft.QuorumState)
+kafka-3     | 2026-09-26T00:55:21.574530692Z [2026-09-26 00:55:21,574] INFO [RaftManager id=3] Insufficient remaining votes to become leader (rejected by [1, 2]). We will backoff before retrying election again (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:21.574541827Z [2026-09-26 00:55:21,574] INFO [RaftManager id=3] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:21.579715161Z [2026-09-26 00:55:21,579] INFO [RaftManager id=3] Completed transition to CandidateState(localId=3, epoch=134, retries=4, voteStates={1=UNRECORDED, 2=UNRECORDED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1469) from CandidateState(localId=3, epoch=133, retries=3, voteStates={1=REJECTED, 2=REJECTED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1074) (org.apache.kafka.raft.QuorumState)
+kafka-3     | 2026-09-26T00:55:21.591088597Z [2026-09-26 00:55:21,590] INFO [RaftManager id=3] Insufficient remaining votes to become leader (rejected by [1, 2]). We will backoff before retrying election again (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:22.303851574Z [2026-09-26 00:55:22,302] INFO [NodeToControllerChannelManager id=3 name=heartbeat] Client requested disconnect from node 2 (org.apache.kafka.clients.NetworkClient)
+kafka-3     | 2026-09-26T00:55:22.590387672Z [2026-09-26 00:55:22,590] INFO [RaftManager id=3] Re-elect as candidate after election backoff has completed (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:22.596556750Z [2026-09-26 00:55:22,596] INFO [RaftManager id=3] Completed transition to CandidateState(localId=3, epoch=135, retries=5, voteStates={1=UNRECORDED, 2=UNRECORDED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1010) from CandidateState(localId=3, epoch=134, retries=4, voteStates={1=REJECTED, 2=REJECTED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1469) (org.apache.kafka.raft.QuorumState)
+kafka-3     | 2026-09-26T00:55:22.610547022Z [2026-09-26 00:55:22,610] INFO [RaftManager id=3] Insufficient remaining votes to become leader (rejected by [1, 2]). We will backoff before retrying election again (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:22.856022492Z [2026-09-26 00:55:22,855] INFO [RaftManager id=3] Completed transition to Unattached(epoch=136, voters=[1, 2, 3], electionTimeoutMs=753) from CandidateState(localId=3, epoch=135, retries=5, voteStates={1=REJECTED, 2=REJECTED, 3=GRANTED}, highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], electionTimeoutMs=1010) (org.apache.kafka.raft.QuorumState)
+kafka-3     | 2026-09-26T00:55:22.862832622Z [2026-09-26 00:55:22,862] INFO [RaftManager id=3] Completed transition to Voted(epoch=136, votedId=2, voters=[1, 2, 3], electionTimeoutMs=1711) from Unattached(epoch=136, voters=[1, 2, 3], electionTimeoutMs=753) (org.apache.kafka.raft.QuorumState)
+kafka-3     | 2026-09-26T00:55:22.863286002Z [2026-09-26 00:55:22,863] INFO [RaftManager id=3] Vote request VoteRequestData(clusterId='M2M4MjYyNTYtMjM4ZC00Y2', topics=[TopicData(topicName='__cluster_metadata', partitions=[PartitionData(partitionIndex=0, candidateEpoch=136, candidateId=2, lastOffsetEpoch=130, lastOffset=27067)])]) with epoch 136 is granted (org.apache.kafka.raft.KafkaRaftClient)
+kafka-3     | 2026-09-26T00:55:22.898091807Z [2026-09-26 00:55:22,897] INFO [RaftManager id=3] Completed transition to FollowerState(fetchTimeoutMs=2000, epoch=136, leaderId=2, voters=[1, 2, 3], highWatermark=Optional[LogOffsetMetadata(offset=27065, metadata=Optional.empty)], fetchingSnapshot=Optional.empty) from Voted(epoch=136, votedId=2, voters=[1, 2, 3], electionTimeoutMs=1711) (org.apache.kafka.raft.QuorumState)
+kafka-3     | 2026-09-26T00:55:22.907468142Z [2026-09-26 00:55:22,907] INFO [broker-3-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node kafka-2:9093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+kafka-3     | 2026-09-26T00:55:22.910289969Z [2026-09-26 00:55:22,910] INFO [NodeToControllerChannelManager id=3 name=heartbeat] Client requested disconnect from node 2 (org.apache.kafka.clients.NetworkClient)
+kafka-3     | 2026-09-26T00:55:22.910785795Z [2026-09-26 00:55:22,910] INFO [broker-3-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node kafka-2:9093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+kafka-3     | 2026-09-26T00:55:22.961531578Z [2026-09-26 00:55:22,961] INFO [broker-3-to-controller-heartbeat-channel-manager]: Recorded new KRaft controller, from now on will use node kafka-2:9093 (id: 2 rack: null) (kafka.server.NodeToControllerRequestThread)
+kafka-3     | 2026-09-26T00:56:07.729015505Z [2026-09-26 00:56:07,728] INFO [GroupCoordinator 3]: Member kafka-python-2.2.3-16a39137-6c21-44c4-880b-8270e6023184 in group processadores has failed, removing it from the group (kafka.coordinator.group.GroupCoordinator)
+kafka-3     | 2026-09-26T00:56:07.732597816Z [2026-09-26 00:56:07,732] INFO [GroupCoordinator 3]: Preparing to rebalance group processadores in state PreparingRebalance with old generation 7 (__consumer_offsets-5) (reason: removing member kafka-python-2.2.3-16a39137-6c21-44c4-880b-8270e6023184 on heartbeat expiration) (kafka.coordinator.group.GroupCoordinator)
+kafka-3     | 2026-09-26T00:56:07.925197379Z [2026-09-26 00:56:07,924] INFO [GroupCoordinator 3]: Stabilized group processadores generation 8 (__consumer_offsets-5) with 1 members (kafka.coordinator.group.GroupCoordinator)
+consumer-2  | 2026-09-26T00:54:44.850918198Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:54:45.663641796Z partição=5 offset=359 dados={'timestamp': '2026-09-26T00:54:45.658722', 'sensor_id': 'sensor-1', 'temperatura': 26.5, 'vibracao': 5.88}
+consumer-2  | 2026-09-26T00:54:46.360917495Z partição=3 offset=358 dados={'timestamp': '2026-09-26T00:54:46.356279', 'sensor_id': 'sensor-3', 'temperatura': 88.76, 'vibracao': 8.21}
+consumer-2  | 2026-09-26T00:54:46.360943280Z ANOMALIA: temperatura, vibracao
+consumer-2  | 2026-09-26T00:54:52.411157783Z partição=5 offset=360 dados={'timestamp': '2026-09-26T00:54:52.407171', 'sensor_id': 'sensor-2', 'temperatura': 34.41, 'vibracao': 8.62}
+consumer-2  | 2026-09-26T00:54:52.411186613Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:54:55.224592163Z partição=3 offset=359 dados={'timestamp': '2026-09-26T00:54:55.221410', 'sensor_id': 'sensor-1', 'temperatura': 70.05, 'vibracao': 6.82}
+consumer-2  | 2026-09-26T00:54:56.413905615Z partição=4 offset=343 dados={'timestamp': '2026-09-26T00:54:56.411074', 'sensor_id': 'sensor-2', 'temperatura': 77.57, 'vibracao': 9.96}
+consumer-2  | 2026-09-26T00:54:56.414055235Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:54:59.927048454Z partição=3 offset=360 dados={'timestamp': '2026-09-26T00:54:59.923960', 'sensor_id': 'sensor-3', 'temperatura': 84.53, 'vibracao': 2.27}
+consumer-2  | 2026-09-26T00:54:59.927065110Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:55:00.424355017Z partição=3 offset=361 dados={'timestamp': '2026-09-26T00:55:00.421261', 'sensor_id': 'sensor-2', 'temperatura': 68.58, 'vibracao': 8.71}
+consumer-2  | 2026-09-26T00:55:00.424374053Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:01.231653838Z partição=4 offset=344 dados={'timestamp': '2026-09-26T00:55:01.228505', 'sensor_id': 'sensor-1', 'temperatura': 71.13, 'vibracao': 9.58}
+consumer-2  | 2026-09-26T00:55:01.231670931Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:02.427663330Z partição=5 offset=361 dados={'timestamp': '2026-09-26T00:55:02.423221', 'sensor_id': 'sensor-2', 'temperatura': 34.46, 'vibracao': 0.59}
+consumer-2  | 2026-09-26T00:55:04.428904169Z partição=3 offset=362 dados={'timestamp': '2026-09-26T00:55:04.425672', 'sensor_id': 'sensor-2', 'temperatura': 82.77, 'vibracao': 1.13}
+consumer-2  | 2026-09-26T00:55:04.428921072Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:55:05.240071896Z partição=5 offset=362 dados={'timestamp': '2026-09-26T00:55:05.236823', 'sensor_id': 'sensor-1', 'temperatura': 82.99, 'vibracao': 8.26}
+consumer-2  | 2026-09-26T00:55:05.240090604Z ANOMALIA: temperatura, vibracao
+consumer-2  | 2026-09-26T00:55:06.430740612Z partição=3 offset=363 dados={'timestamp': '2026-09-26T00:55:06.427800', 'sensor_id': 'sensor-2', 'temperatura': 77.18, 'vibracao': 4.93}
+sensor-2    | 2026-09-26T00:55:36.019250350Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:36.017220', 'sensor_id': 'sensor-2', 'temperatura': 51.54, 'vibracao': 7.42}
+sensor-2    | 2026-09-26T00:55:38.021402470Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:38.019166', 'sensor_id': 'sensor-2', 'temperatura': 39.67, 'vibracao': 0.93}
+sensor-2    | 2026-09-26T00:55:40.023429643Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:40.021311', 'sensor_id': 'sensor-2', 'temperatura': 51.01, 'vibracao': 8.16}
+sensor-2    | 2026-09-26T00:55:42.025063530Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:42.023309', 'sensor_id': 'sensor-2', 'temperatura': 39.16, 'vibracao': 5.97}
+sensor-2    | 2026-09-26T00:55:44.027011972Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:44.025039', 'sensor_id': 'sensor-2', 'temperatura': 20.11, 'vibracao': 1.4}
+sensor-2    | 2026-09-26T00:55:46.041198245Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:46.026862', 'sensor_id': 'sensor-2', 'temperatura': 50.42, 'vibracao': 7.55}
+sensor-2    | 2026-09-26T00:55:48.042780791Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:48.041126', 'sensor_id': 'sensor-2', 'temperatura': 27.93, 'vibracao': 3.14}
+sensor-2    | 2026-09-26T00:55:50.045086707Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:50.042718', 'sensor_id': 'sensor-2', 'temperatura': 91.06, 'vibracao': 1.53}
+sensor-2    | 2026-09-26T00:55:53.611999908Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:53.609193', 'sensor_id': 'sensor-2', 'temperatura': 50.34, 'vibracao': 4.93}
+sensor-2    | 2026-09-26T00:55:55.614516490Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:55.611915', 'sensor_id': 'sensor-2', 'temperatura': 26.89, 'vibracao': 7.92}
+sensor-2    | 2026-09-26T00:55:57.616696236Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:57.614430', 'sensor_id': 'sensor-2', 'temperatura': 91.53, 'vibracao': 3.7}
+sensor-2    | 2026-09-26T00:55:59.618677724Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:55:59.616590', 'sensor_id': 'sensor-2', 'temperatura': 58.3, 'vibracao': 4.53}
+sensor-2    | 2026-09-26T00:56:01.620687913Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:01.618590', 'sensor_id': 'sensor-2', 'temperatura': 39.84, 'vibracao': 2.09}
+sensor-2    | 2026-09-26T00:56:03.622876347Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:03.620598', 'sensor_id': 'sensor-2', 'temperatura': 88.92, 'vibracao': 1.78}
+sensor-2    | 2026-09-26T00:56:05.624666313Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:05.622780', 'sensor_id': 'sensor-2', 'temperatura': 72.51, 'vibracao': 7.53}
+sensor-2    | 2026-09-26T00:56:07.626648813Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:07.624533', 'sensor_id': 'sensor-2', 'temperatura': 90.78, 'vibracao': 7.82}
+sensor-2    | 2026-09-26T00:56:09.628667728Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:09.626546', 'sensor_id': 'sensor-2', 'temperatura': 76.67, 'vibracao': 5.63}
+sensor-2    | 2026-09-26T00:56:11.630487729Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:11.628524', 'sensor_id': 'sensor-2', 'temperatura': 20.95, 'vibracao': 3.75}
+sensor-2    | 2026-09-26T00:56:13.632136228Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:13.630421', 'sensor_id': 'sensor-2', 'temperatura': 51.53, 'vibracao': 2.26}
+sensor-2    | 2026-09-26T00:56:15.633737799Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:15.631995', 'sensor_id': 'sensor-2', 'temperatura': 27.75, 'vibracao': 3.89}
+sensor-2    | 2026-09-26T00:56:17.635555329Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:17.633607', 'sensor_id': 'sensor-2', 'temperatura': 29.74, 'vibracao': 8.02}
+sensor-2    | 2026-09-26T00:56:19.637490577Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:19.635465', 'sensor_id': 'sensor-2', 'temperatura': 31.54, 'vibracao': 1.36}
+sensor-2    | 2026-09-26T00:56:21.639565862Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:21.637303', 'sensor_id': 'sensor-2', 'temperatura': 41.44, 'vibracao': 5.66}
+sensor-2    | 2026-09-26T00:56:25.181663976Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:25.179444', 'sensor_id': 'sensor-2', 'temperatura': 35.71, 'vibracao': 9.76}
+sensor-2    | 2026-09-26T00:56:27.185227358Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:27.181603', 'sensor_id': 'sensor-2', 'temperatura': 77.58, 'vibracao': 6.25}
+sensor-2    | 2026-09-26T00:56:29.186578113Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:29.184967', 'sensor_id': 'sensor-2', 'temperatura': 93.47, 'vibracao': 5.87}
+sensor-2    | 2026-09-26T00:56:31.188578828Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:31.186440', 'sensor_id': 'sensor-2', 'temperatura': 20.96, 'vibracao': 4.02}
+consumer-1  | 2026-09-26T00:54:06.079413896Z partição=0 offset=339 dados={'timestamp': '2026-09-26T00:54:06.075989', 'sensor_id': 'sensor-1', 'temperatura': 89.31, 'vibracao': 3.93}
+consumer-1  | 2026-09-26T00:54:06.079434614Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:54:06.779600581Z partição=2 offset=6080 dados={'timestamp': '2026-09-26T00:54:06.776224', 'sensor_id': 'sensor-3', 'temperatura': 74.41, 'vibracao': 4.44}
+consumer-1  | 2026-09-26T00:54:07.272391922Z partição=1 offset=11910 dados={'timestamp': '2026-09-26T00:54:07.268917', 'sensor_id': 'sensor-2', 'temperatura': 70.43, 'vibracao': 1.3}
+consumer-1  | 2026-09-26T00:54:08.782000321Z partição=2 offset=6081 dados={'timestamp': '2026-09-26T00:54:08.777942', 'sensor_id': 'sensor-3', 'temperatura': 37.43, 'vibracao': 4.49}
+consumer-1  | 2026-09-26T00:54:09.274449153Z partição=2 offset=6082 dados={'timestamp': '2026-09-26T00:54:09.270971', 'sensor_id': 'sensor-2', 'temperatura': 74.14, 'vibracao': 2.71}
+consumer-1  | 2026-09-26T00:54:10.084616234Z partição=0 offset=340 dados={'timestamp': '2026-09-26T00:54:10.080471', 'sensor_id': 'sensor-1', 'temperatura': 41.12, 'vibracao': 7.27}
+consumer-1  | 2026-09-26T00:54:12.787485429Z partição=0 offset=341 dados={'timestamp': '2026-09-26T00:54:12.782477', 'sensor_id': 'sensor-3', 'temperatura': 58.14, 'vibracao': 5.04}
+consumer-1  | 2026-09-26T00:54:14.788466310Z partição=1 offset=11911 dados={'timestamp': '2026-09-26T00:54:14.785812', 'sensor_id': 'sensor-3', 'temperatura': 61.48, 'vibracao': 6.85}
+consumer-1  | 2026-09-26T00:54:15.282038710Z partição=0 offset=342 dados={'timestamp': '2026-09-26T00:54:15.277143', 'sensor_id': 'sensor-2', 'temperatura': 94.29, 'vibracao': 8.26}
+consumer-1  | 2026-09-26T00:54:15.282069155Z ANOMALIA: temperatura, vibracao
+consumer-1  | 2026-09-26T00:54:16.296996288Z partição=2 offset=6083 dados={'timestamp': '2026-09-26T00:54:16.088254', 'sensor_id': 'sensor-1', 'temperatura': 62.25, 'vibracao': 3.1}
+consumer-1  | 2026-09-26T00:54:18.823144411Z partição=2 offset=6084 dados={'timestamp': '2026-09-26T00:54:18.817996', 'sensor_id': 'sensor-2', 'temperatura': 62.95, 'vibracao': 7.58}
+consumer-1  | 2026-09-26T00:54:19.632237358Z partição=2 offset=6085 dados={'timestamp': '2026-09-26T00:54:19.628227', 'sensor_id': 'sensor-1', 'temperatura': 76.21, 'vibracao': 8.39}
+consumer-1  | 2026-09-26T00:54:19.632258478Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:54:20.330335894Z partição=1 offset=11912 dados={'timestamp': '2026-09-26T00:54:20.327030', 'sensor_id': 'sensor-3', 'temperatura': 87.52, 'vibracao': 2.4}
+consumer-1  | 2026-09-26T00:54:20.330361589Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:54:20.824445695Z partição=1 offset=11913 dados={'timestamp': '2026-09-26T00:54:20.820846', 'sensor_id': 'sensor-2', 'temperatura': 62.13, 'vibracao': 1.99}
+consumer-1  | 2026-09-26T00:54:21.634002317Z partição=2 offset=6086 dados={'timestamp': '2026-09-26T00:54:21.630372', 'sensor_id': 'sensor-1', 'temperatura': 66.38, 'vibracao': 8.02}
+consumer-1  | 2026-09-26T00:54:21.634036577Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:54:22.825889868Z partição=1 offset=11914 dados={'timestamp': '2026-09-26T00:54:22.822443', 'sensor_id': 'sensor-2', 'temperatura': 73.92, 'vibracao': 3.6}
+consumer-1  | 2026-09-26T00:54:25.637183393Z partição=1 offset=11915 dados={'timestamp': '2026-09-26T00:54:25.634221', 'sensor_id': 'sensor-1', 'temperatura': 81.13, 'vibracao': 1.05}
+consumer-1  | 2026-09-26T00:54:25.637202902Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:54:26.335981704Z partição=1 offset=11916 dados={'timestamp': '2026-09-26T00:54:26.332949', 'sensor_id': 'sensor-3', 'temperatura': 41.34, 'vibracao': 1.39}
+consumer-1  | 2026-09-26T00:54:28.921299494Z partição=0 offset=343 dados={'timestamp': '2026-09-26T00:54:28.828374', 'sensor_id': 'sensor-2', 'temperatura': 91.14, 'vibracao': 6.94}
+consumer-1  | 2026-09-26T00:54:28.921330490Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:54:29.647632905Z partição=0 offset=344 dados={'timestamp': '2026-09-26T00:54:29.641108', 'sensor_id': 'sensor-1', 'temperatura': 27.1, 'vibracao': 9.76}
+consumer-1  | 2026-09-26T00:54:29.647661714Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:54:30.341969128Z partição=0 offset=345 dados={'timestamp': '2026-09-26T00:54:30.337424', 'sensor_id': 'sensor-3', 'temperatura': 53.98, 'vibracao': 0.48}
+consumer-1  | 2026-09-26T00:54:30.835672315Z partição=1 offset=11917 dados={'timestamp': '2026-09-26T00:54:30.831663', 'sensor_id': 'sensor-2', 'temperatura': 50.42, 'vibracao': 5.72}
+consumer-1  | 2026-09-26T00:54:31.649922216Z partição=0 offset=346 dados={'timestamp': '2026-09-26T00:54:31.645170', 'sensor_id': 'sensor-1', 'temperatura': 89.09, 'vibracao': 4.05}
+consumer-1  | 2026-09-26T00:54:31.649957395Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:54:32.343178745Z partição=0 offset=347 dados={'timestamp': '2026-09-26T00:54:32.339603', 'sensor_id': 'sensor-3', 'temperatura': 80.2, 'vibracao': 8.51}
+consumer-1  | 2026-09-26T00:54:32.343194053Z ANOMALIA: temperatura, vibracao
+consumer-1  | 2026-09-26T00:54:32.837931011Z partição=2 offset=6087 dados={'timestamp': '2026-09-26T00:54:32.833787', 'sensor_id': 'sensor-2', 'temperatura': 78.84, 'vibracao': 9.5}
+consumer-1  | 2026-09-26T00:54:32.837953354Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:54:33.846936008Z partição=0 offset=348 dados={'timestamp': '2026-09-26T00:54:33.647331', 'sensor_id': 'sensor-1', 'temperatura': 61.01, 'vibracao': 4.3}
+consumer-1  | 2026-09-26T00:54:35.653242551Z partição=0 offset=349 dados={'timestamp': '2026-09-26T00:54:35.649344', 'sensor_id': 'sensor-1', 'temperatura': 64.91, 'vibracao': 1.15}
+consumer-1  | 2026-09-26T00:54:36.348274504Z partição=0 offset=350 dados={'timestamp': '2026-09-26T00:54:36.343533', 'sensor_id': 'sensor-3', 'temperatura': 53.81, 'vibracao': 8.96}
+consumer-1  | 2026-09-26T00:54:36.348301873Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:54:36.841678476Z partição=1 offset=11918 dados={'timestamp': '2026-09-26T00:54:36.838680', 'sensor_id': 'sensor-2', 'temperatura': 64.6, 'vibracao': 0.12}
+consumer-1  | 2026-09-26T00:54:38.349568490Z partição=2 offset=6088 dados={'timestamp': '2026-09-26T00:54:38.345730', 'sensor_id': 'sensor-3', 'temperatura': 28.11, 'vibracao': 1.36}
+consumer-1  | 2026-09-26T00:54:38.845665044Z partição=0 offset=351 dados={'timestamp': '2026-09-26T00:54:38.840418', 'sensor_id': 'sensor-2', 'temperatura': 20.29, 'vibracao': 8.99}
+consumer-1  | 2026-09-26T00:54:38.845695835Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:54:39.656356629Z partição=2 offset=6089 dados={'timestamp': '2026-09-26T00:54:39.653069', 'sensor_id': 'sensor-1', 'temperatura': 37.96, 'vibracao': 1.76}
+consumer-1  | 2026-09-26T00:54:43.660611236Z partição=1 offset=11919 dados={'timestamp': '2026-09-26T00:54:43.656793', 'sensor_id': 'sensor-1', 'temperatura': 75.5, 'vibracao': 7.19}
+consumer-1  | 2026-09-26T00:54:46.853689956Z partição=2 offset=6090 dados={'timestamp': '2026-09-26T00:54:46.849803', 'sensor_id': 'sensor-2', 'temperatura': 43.31, 'vibracao': 6.37}
+consumer-1  | 2026-09-26T00:54:47.665672448Z partição=1 offset=11920 dados={'timestamp': '2026-09-26T00:54:47.661372', 'sensor_id': 'sensor-1', 'temperatura': 64.68, 'vibracao': 5.22}
+consumer-1  | 2026-09-26T00:54:49.916608525Z partição=0 offset=352 dados={'timestamp': '2026-09-26T00:54:49.912002', 'sensor_id': 'sensor-3', 'temperatura': 46.85, 'vibracao': 9.73}
+consumer-1  | 2026-09-26T00:54:49.916626698Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:54:50.409545400Z partição=0 offset=353 dados={'timestamp': '2026-09-26T00:54:50.405389', 'sensor_id': 'sensor-2', 'temperatura': 40.13, 'vibracao': 3.83}
+consumer-1  | 2026-09-26T00:54:51.221973469Z partição=0 offset=354 dados={'timestamp': '2026-09-26T00:54:51.217243', 'sensor_id': 'sensor-1', 'temperatura': 23.2, 'vibracao': 6.33}
+consumer-1  | 2026-09-26T00:54:51.917410629Z partição=1 offset=11921 dados={'timestamp': '2026-09-26T00:54:51.914226', 'sensor_id': 'sensor-3', 'temperatura': 45.36, 'vibracao': 9.95}
+consumer-1  | 2026-09-26T00:54:51.917432703Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:54:53.223487046Z partição=0 offset=355 dados={'timestamp': '2026-09-26T00:54:53.219732', 'sensor_id': 'sensor-1', 'temperatura': 53.93, 'vibracao': 5.27}
+consumer-1  | 2026-09-26T00:54:53.920454701Z partição=0 offset=356 dados={'timestamp': '2026-09-26T00:54:53.916018', 'sensor_id': 'sensor-3', 'temperatura': 29.69, 'vibracao': 2.74}
+consumer-1  | 2026-09-26T00:54:54.412333936Z partição=1 offset=11922 dados={'timestamp': '2026-09-26T00:54:54.409327', 'sensor_id': 'sensor-2', 'temperatura': 31.1, 'vibracao': 2.18}
+consumer-1  | 2026-09-26T00:54:55.921914260Z partição=0 offset=357 dados={'timestamp': '2026-09-26T00:54:55.917886', 'sensor_id': 'sensor-3', 'temperatura': 24.14, 'vibracao': 0.95}
+consumer-1  | 2026-09-26T00:54:57.228650174Z partição=0 offset=358 dados={'timestamp': '2026-09-26T00:54:57.223251', 'sensor_id': 'sensor-1', 'temperatura': 65.73, 'vibracao': 7.22}
+consumer-1  | 2026-09-26T00:54:57.927424971Z partição=0 offset=359 dados={'timestamp': '2026-09-26T00:54:57.920220', 'sensor_id': 'sensor-3', 'temperatura': 84.73, 'vibracao': 0.4}
+consumer-1  | 2026-09-26T00:54:57.927455332Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:54:58.424736198Z partição=0 offset=360 dados={'timestamp': '2026-09-26T00:54:58.412679', 'sensor_id': 'sensor-2', 'temperatura': 40.21, 'vibracao': 9.51}
+consumer-1  | 2026-09-26T00:54:58.424785024Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:07.246159707Z partição=3 offset=364 dados={'timestamp': '2026-09-26T00:55:07.238734', 'sensor_id': 'sensor-1', 'temperatura': 85.02, 'vibracao': 4.63}
+consumer-2  | 2026-09-26T00:55:07.246194274Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:55:08.260421465Z partição=4 offset=345 dados={'timestamp': '2026-09-26T00:55:07.932421', 'sensor_id': 'sensor-3', 'temperatura': 91.86, 'vibracao': 1.02}
+consumer-2  | 2026-09-26T00:55:08.260449764Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:55:08.433134768Z partição=4 offset=346 dados={'timestamp': '2026-09-26T00:55:08.429864', 'sensor_id': 'sensor-2', 'temperatura': 80.38, 'vibracao': 9.28}
+consumer-2  | 2026-09-26T00:55:08.433149582Z ANOMALIA: temperatura, vibracao
+consumer-2  | 2026-09-26T00:55:09.937640739Z partição=3 offset=365 dados={'timestamp': '2026-09-26T00:55:09.934359', 'sensor_id': 'sensor-3', 'temperatura': 55.18, 'vibracao': 1.46}
+consumer-2  | 2026-09-26T00:55:10.435425281Z partição=4 offset=347 dados={'timestamp': '2026-09-26T00:55:10.432173', 'sensor_id': 'sensor-2', 'temperatura': 84.48, 'vibracao': 6.05}
+consumer-2  | 2026-09-26T00:55:10.435445728Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:55:13.945546657Z partição=4 offset=348 dados={'timestamp': '2026-09-26T00:55:13.938458', 'sensor_id': 'sensor-3', 'temperatura': 55.22, 'vibracao': 2.96}
+consumer-2  | 2026-09-26T00:55:15.263397499Z partição=4 offset=349 dados={'timestamp': '2026-09-26T00:55:15.259997', 'sensor_id': 'sensor-1', 'temperatura': 58.93, 'vibracao': 6.67}
+consumer-2  | 2026-09-26T00:55:15.949686259Z partição=4 offset=350 dados={'timestamp': '2026-09-26T00:55:15.942859', 'sensor_id': 'sensor-3', 'temperatura': 92.45, 'vibracao': 1.82}
+consumer-2  | 2026-09-26T00:55:15.949706516Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:55:16.445618167Z partição=4 offset=351 dados={'timestamp': '2026-09-26T00:55:16.438253', 'sensor_id': 'sensor-2', 'temperatura': 38.81, 'vibracao': 0.28}
+consumer-2  | 2026-09-26T00:55:17.954806603Z partição=4 offset=352 dados={'timestamp': '2026-09-26T00:55:17.948273', 'sensor_id': 'sensor-3', 'temperatura': 73.56, 'vibracao': 9.34}
+consumer-2  | 2026-09-26T00:55:17.954839151Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:18.455107519Z partição=5 offset=363 dados={'timestamp': '2026-09-26T00:55:18.442773', 'sensor_id': 'sensor-2', 'temperatura': 40.47, 'vibracao': 2.4}
+consumer-2  | 2026-09-26T00:55:19.266857049Z partição=5 offset=364 dados={'timestamp': '2026-09-26T00:55:19.263618', 'sensor_id': 'sensor-1', 'temperatura': 54.31, 'vibracao': 4.31}
+consumer-2  | 2026-09-26T00:55:21.496316369Z partição=4 offset=353 dados={'timestamp': '2026-09-26T00:55:21.493157', 'sensor_id': 'sensor-3', 'temperatura': 53.38, 'vibracao': 6.39}
+consumer-2  | 2026-09-26T00:55:22.809788815Z partição=4 offset=354 dados={'timestamp': '2026-09-26T00:55:22.806612', 'sensor_id': 'sensor-1', 'temperatura': 38.46, 'vibracao': 3.7}
+consumer-2  | 2026-09-26T00:55:23.995722204Z partição=4 offset=355 dados={'timestamp': '2026-09-26T00:55:23.992822', 'sensor_id': 'sensor-2', 'temperatura': 50.65, 'vibracao': 0.33}
+consumer-2  | 2026-09-26T00:55:25.998594256Z partição=3 offset=366 dados={'timestamp': '2026-09-26T00:55:25.994707', 'sensor_id': 'sensor-2', 'temperatura': 78.54, 'vibracao': 9.32}
+consumer-2  | 2026-09-26T00:55:25.998617096Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:26.813792215Z partição=4 offset=356 dados={'timestamp': '2026-09-26T00:55:26.810717', 'sensor_id': 'sensor-1', 'temperatura': 39.73, 'vibracao': 9.55}
+consumer-2  | 2026-09-26T00:55:26.813808583Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:28.005883509Z partição=5 offset=365 dados={'timestamp': '2026-09-26T00:55:27.997362', 'sensor_id': 'sensor-2', 'temperatura': 37.99, 'vibracao': 4.92}
+consumer-2  | 2026-09-26T00:55:29.508800177Z partição=4 offset=357 dados={'timestamp': '2026-09-26T00:55:29.504989', 'sensor_id': 'sensor-3', 'temperatura': 76.71, 'vibracao': 8.64}
+consumer-2  | 2026-09-26T00:55:29.509016104Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:30.817846262Z partição=4 offset=358 dados={'timestamp': '2026-09-26T00:55:30.814728', 'sensor_id': 'sensor-1', 'temperatura': 30.88, 'vibracao': 8.08}
+consumer-2  | 2026-09-26T00:55:30.817867578Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:31.510185272Z partição=4 offset=359 dados={'timestamp': '2026-09-26T00:55:31.507111', 'sensor_id': 'sensor-3', 'temperatura': 57.26, 'vibracao': 8.48}
+consumer-2  | 2026-09-26T00:55:31.510207350Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:32.014327755Z partição=3 offset=367 dados={'timestamp': '2026-09-26T00:55:32.004713', 'sensor_id': 'sensor-2', 'temperatura': 59.62, 'vibracao': 9.86}
+consumer-2  | 2026-09-26T00:55:32.014377716Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:34.018680537Z partição=3 offset=368 dados={'timestamp': '2026-09-26T00:55:34.014805', 'sensor_id': 'sensor-2', 'temperatura': 60.35, 'vibracao': 0.26}
+consumer-2  | 2026-09-26T00:55:36.021092502Z partição=4 offset=360 dados={'timestamp': '2026-09-26T00:55:36.017220', 'sensor_id': 'sensor-2', 'temperatura': 51.54, 'vibracao': 7.42}
+consumer-2  | 2026-09-26T00:55:36.825018285Z partição=3 offset=369 dados={'timestamp': '2026-09-26T00:55:36.821091', 'sensor_id': 'sensor-1', 'temperatura': 69.75, 'vibracao': 0.6}
+consumer-2  | 2026-09-26T00:55:37.517265501Z partição=5 offset=366 dados={'timestamp': '2026-09-26T00:55:37.513402', 'sensor_id': 'sensor-3', 'temperatura': 27.88, 'vibracao': 4.41}
+consumer-2  | 2026-09-26T00:55:38.829450536Z partição=5 offset=367 dados={'timestamp': '2026-09-26T00:55:38.823480', 'sensor_id': 'sensor-1', 'temperatura': 29.23, 'vibracao': 9.64}
+consumer-2  | 2026-09-26T00:55:38.829482676Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:40.829091174Z partição=4 offset=361 dados={'timestamp': '2026-09-26T00:55:40.825717', 'sensor_id': 'sensor-1', 'temperatura': 49.46, 'vibracao': 3.17}
+consumer-2  | 2026-09-26T00:55:42.026062817Z partição=4 offset=362 dados={'timestamp': '2026-09-26T00:55:42.023309', 'sensor_id': 'sensor-2', 'temperatura': 39.16, 'vibracao': 5.97}
+consumer-2  | 2026-09-26T00:55:42.830656179Z partição=4 offset=363 dados={'timestamp': '2026-09-26T00:55:42.827842', 'sensor_id': 'sensor-1', 'temperatura': 76.65, 'vibracao': 7.59}
+consumer-2  | 2026-09-26T00:55:44.832563320Z partição=3 offset=370 dados={'timestamp': '2026-09-26T00:55:44.829444', 'sensor_id': 'sensor-1', 'temperatura': 45.83, 'vibracao': 9.87}
+consumer-2  | 2026-09-26T00:55:44.832587476Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:46.048228519Z partição=3 offset=371 dados={'timestamp': '2026-09-26T00:55:46.026862', 'sensor_id': 'sensor-2', 'temperatura': 50.42, 'vibracao': 7.55}
+consumer-2  | 2026-09-26T00:55:46.834700044Z partição=3 offset=372 dados={'timestamp': '2026-09-26T00:55:46.831415', 'sensor_id': 'sensor-1', 'temperatura': 63.19, 'vibracao': 0.72}
+consumer-2  | 2026-09-26T00:55:48.836651123Z partição=3 offset=373 dados={'timestamp': '2026-09-26T00:55:48.833294', 'sensor_id': 'sensor-1', 'temperatura': 56.62, 'vibracao': 6.01}
+consumer-2  | 2026-09-26T00:55:50.839444764Z partição=4 offset=364 dados={'timestamp': '2026-09-26T00:55:50.835294', 'sensor_id': 'sensor-1', 'temperatura': 66.25, 'vibracao': 4.11}
+consumer-2  | 2026-09-26T00:55:53.094432014Z partição=4 offset=365 dados={'timestamp': '2026-09-26T00:55:53.090978', 'sensor_id': 'sensor-3', 'temperatura': 79.15, 'vibracao': 8.21}
+consumer-2  | 2026-09-26T00:55:53.094455143Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:55:53.613721308Z partição=5 offset=368 dados={'timestamp': '2026-09-26T00:55:53.609193', 'sensor_id': 'sensor-2', 'temperatura': 50.34, 'vibracao': 4.93}
+consumer-2  | 2026-09-26T00:55:56.407288117Z partição=4 offset=366 dados={'timestamp': '2026-09-26T00:55:56.404134', 'sensor_id': 'sensor-1', 'temperatura': 55.21, 'vibracao': 7.16}
+consumer-2  | 2026-09-26T00:55:59.619720025Z partição=4 offset=367 dados={'timestamp': '2026-09-26T00:55:59.616590', 'sensor_id': 'sensor-2', 'temperatura': 58.3, 'vibracao': 4.53}
+consumer-2  | 2026-09-26T00:56:01.102825646Z partição=3 offset=374 dados={'timestamp': '2026-09-26T00:56:01.099208', 'sensor_id': 'sensor-3', 'temperatura': 28.75, 'vibracao': 9.97}
+consumer-2  | 2026-09-26T00:56:01.102851019Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:03.104233110Z partição=3 offset=375 dados={'timestamp': '2026-09-26T00:56:03.101247', 'sensor_id': 'sensor-3', 'temperatura': 80.51, 'vibracao': 0.88}
+consumer-2  | 2026-09-26T00:56:03.104261810Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:03.624612193Z partição=4 offset=368 dados={'timestamp': '2026-09-26T00:56:03.620598', 'sensor_id': 'sensor-2', 'temperatura': 88.92, 'vibracao': 1.78}
+consumer-2  | 2026-09-26T00:56:03.624634811Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:04.415209787Z partição=4 offset=369 dados={'timestamp': '2026-09-26T00:56:04.412414', 'sensor_id': 'sensor-1', 'temperatura': 69.04, 'vibracao': 6.17}
+consumer-2  | 2026-09-26T00:56:05.106661118Z partição=4 offset=370 dados={'timestamp': '2026-09-26T00:56:05.103148', 'sensor_id': 'sensor-3', 'temperatura': 27.07, 'vibracao': 2.81}
+consumer-2  | 2026-09-26T00:56:07.107630867Z partição=4 offset=371 dados={'timestamp': '2026-09-26T00:56:07.104858', 'sensor_id': 'sensor-3', 'temperatura': 64.59, 'vibracao': 1.27}
+consumer-2  | 2026-09-26T00:56:07.627927273Z partição=5 offset=369 dados={'timestamp': '2026-09-26T00:56:07.624533', 'sensor_id': 'sensor-2', 'temperatura': 90.78, 'vibracao': 7.82}
+consumer-2  | 2026-09-26T00:56:07.627979540Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:08.251257208Z partição=2 offset=6098 dados={'timestamp': '2026-09-26T00:55:54.401251', 'sensor_id': 'sensor-1', 'temperatura': 29.78, 'vibracao': 9.47}
+consumer-2  | 2026-09-26T00:56:08.251284007Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:08.257755278Z partição=2 offset=6099 dados={'timestamp': '2026-09-26T00:55:55.611915', 'sensor_id': 'sensor-2', 'temperatura': 26.89, 'vibracao': 7.92}
+consumer-2  | 2026-09-26T00:56:08.257781887Z partição=2 offset=6100 dados={'timestamp': '2026-09-26T00:55:57.614430', 'sensor_id': 'sensor-2', 'temperatura': 91.53, 'vibracao': 3.7}
+consumer-2  | 2026-09-26T00:56:08.257784738Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:08.263193080Z partição=2 offset=6101 dados={'timestamp': '2026-09-26T00:56:00.408299', 'sensor_id': 'sensor-1', 'temperatura': 78.65, 'vibracao': 2.45}
+consumer-2  | 2026-09-26T00:56:08.263215793Z partição=2 offset=6102 dados={'timestamp': '2026-09-26T00:56:01.618590', 'sensor_id': 'sensor-2', 'temperatura': 39.84, 'vibracao': 2.09}
+consumer-2  | 2026-09-26T00:56:08.263217883Z partição=0 offset=371 dados={'timestamp': '2026-09-26T00:56:02.410542', 'sensor_id': 'sensor-1', 'temperatura': 67.69, 'vibracao': 3.52}
+consumer-2  | 2026-09-26T00:56:08.263219214Z partição=0 offset=372 dados={'timestamp': '2026-09-26T00:56:06.413953', 'sensor_id': 'sensor-1', 'temperatura': 42.53, 'vibracao': 4.33}
+consumer-2  | 2026-09-26T00:56:08.764808084Z partição=1 offset=11940 dados={'timestamp': '2026-09-26T00:55:55.093091', 'sensor_id': 'sensor-3', 'temperatura': 58.06, 'vibracao': 7.51}
+consumer-2  | 2026-09-26T00:56:08.764837568Z partição=1 offset=11941 dados={'timestamp': '2026-09-26T00:55:57.094903', 'sensor_id': 'sensor-3', 'temperatura': 93.78, 'vibracao': 2.52}
+consumer-2  | 2026-09-26T00:56:08.764841361Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:08.769586142Z partição=1 offset=11942 dados={'timestamp': '2026-09-26T00:55:58.406146', 'sensor_id': 'sensor-1', 'temperatura': 26.1, 'vibracao': 0.28}
+consumer-2  | 2026-09-26T00:56:08.769607189Z partição=1 offset=11943 dados={'timestamp': '2026-09-26T00:55:59.096712', 'sensor_id': 'sensor-3', 'temperatura': 55.12, 'vibracao': 9.61}
+consumer-2  | 2026-09-26T00:56:08.769610222Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:08.773981568Z partição=1 offset=11944 dados={'timestamp': '2026-09-26T00:56:05.622780', 'sensor_id': 'sensor-2', 'temperatura': 72.51, 'vibracao': 7.53}
+consumer-2  | 2026-09-26T00:56:08.775242754Z partição=4 offset=372 dados={'timestamp': '2026-09-26T00:56:08.416239', 'sensor_id': 'sensor-1', 'temperatura': 42.82, 'vibracao': 9.64}
+consumer-2  | 2026-09-26T00:56:08.775256785Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:09.109370524Z partição=3 offset=376 dados={'timestamp': '2026-09-26T00:56:09.106368', 'sensor_id': 'sensor-3', 'temperatura': 81.76, 'vibracao': 8.14}
+consumer-2  | 2026-09-26T00:56:09.109388253Z ANOMALIA: temperatura, vibracao
+consumer-2  | 2026-09-26T00:56:09.630202236Z partição=5 offset=370 dados={'timestamp': '2026-09-26T00:56:09.626546', 'sensor_id': 'sensor-2', 'temperatura': 76.67, 'vibracao': 5.63}
+consumer-2  | 2026-09-26T00:56:10.421626320Z partição=0 offset=373 dados={'timestamp': '2026-09-26T00:56:10.417901', 'sensor_id': 'sensor-1', 'temperatura': 27.57, 'vibracao': 6.96}
+consumer-2  | 2026-09-26T00:56:11.111528504Z partição=5 offset=371 dados={'timestamp': '2026-09-26T00:56:11.108289', 'sensor_id': 'sensor-3', 'temperatura': 37.05, 'vibracao': 1.64}
+consumer-2  | 2026-09-26T00:56:11.632121213Z partição=0 offset=374 dados={'timestamp': '2026-09-26T00:56:11.628524', 'sensor_id': 'sensor-2', 'temperatura': 20.95, 'vibracao': 3.75}
+consumer-2  | 2026-09-26T00:56:12.423013443Z partição=4 offset=373 dados={'timestamp': '2026-09-26T00:56:12.419653', 'sensor_id': 'sensor-1', 'temperatura': 26.83, 'vibracao': 6.06}
+consumer-2  | 2026-09-26T00:56:13.113097083Z partição=3 offset=377 dados={'timestamp': '2026-09-26T00:56:13.110043', 'sensor_id': 'sensor-3', 'temperatura': 60.39, 'vibracao': 9.88}
+consumer-2  | 2026-09-26T00:56:13.113113105Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:13.633453728Z partição=4 offset=374 dados={'timestamp': '2026-09-26T00:56:13.630421', 'sensor_id': 'sensor-2', 'temperatura': 51.53, 'vibracao': 2.26}
+consumer-2  | 2026-09-26T00:56:14.424696261Z partição=3 offset=378 dados={'timestamp': '2026-09-26T00:56:14.421293', 'sensor_id': 'sensor-1', 'temperatura': 86.32, 'vibracao': 7.96}
+consumer-2  | 2026-09-26T00:56:14.424717498Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:15.115149355Z partição=5 offset=372 dados={'timestamp': '2026-09-26T00:56:15.112009', 'sensor_id': 'sensor-3', 'temperatura': 85.1, 'vibracao': 1.8}
+consumer-2  | 2026-09-26T00:56:15.115171729Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:15.635179493Z partição=5 offset=373 dados={'timestamp': '2026-09-26T00:56:15.631995', 'sensor_id': 'sensor-2', 'temperatura': 27.75, 'vibracao': 3.89}
+consumer-2  | 2026-09-26T00:56:16.426980703Z partição=1 offset=11945 dados={'timestamp': '2026-09-26T00:56:16.423343', 'sensor_id': 'sensor-1', 'temperatura': 23.67, 'vibracao': 8.05}
+kafka-3     | 2026-09-26T00:56:07.932623717Z [2026-09-26 00:56:07,932] INFO [GroupCoordinator 3]: Assignment received from leader kafka-python-2.2.3-92dc53f9-2d4e-4781-bfc4-744b2852921f for group processadores for generation 8. The group has 1 members, 0 of which are static. (kafka.coordinator.group.GroupCoordinator)
+consumer-1  | 2026-09-26T00:54:59.231414146Z partição=2 offset=6091 dados={'timestamp': '2026-09-26T00:54:59.225781', 'sensor_id': 'sensor-1', 'temperatura': 83.96, 'vibracao': 5.71}
+consumer-1  | 2026-09-26T00:54:59.231654756Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:01.929527330Z partição=1 offset=11923 dados={'timestamp': '2026-09-26T00:55:01.925918', 'sensor_id': 'sensor-3', 'temperatura': 66.97, 'vibracao': 8.75}
+consumer-1  | 2026-09-26T00:55:01.929546132Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:55:03.241552582Z partição=2 offset=6092 dados={'timestamp': '2026-09-26T00:55:03.230592', 'sensor_id': 'sensor-1', 'temperatura': 63.92, 'vibracao': 4.51}
+consumer-1  | 2026-09-26T00:55:03.932515286Z partição=0 offset=361 dados={'timestamp': '2026-09-26T00:55:03.927874', 'sensor_id': 'sensor-3', 'temperatura': 83.18, 'vibracao': 5.54}
+consumer-1  | 2026-09-26T00:55:03.932535038Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:05.934594927Z partição=1 offset=11924 dados={'timestamp': '2026-09-26T00:55:05.930692', 'sensor_id': 'sensor-3', 'temperatura': 90.91, 'vibracao': 5.51}
+consumer-1  | 2026-09-26T00:55:05.934610786Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:09.253906007Z partição=2 offset=6093 dados={'timestamp': '2026-09-26T00:55:09.244411', 'sensor_id': 'sensor-1', 'temperatura': 31.46, 'vibracao': 5.5}
+consumer-1  | 2026-09-26T00:55:11.256663362Z partição=0 offset=362 dados={'timestamp': '2026-09-26T00:55:11.251157', 'sensor_id': 'sensor-1', 'temperatura': 65.33, 'vibracao': 0.24}
+consumer-1  | 2026-09-26T00:55:11.939448286Z partição=1 offset=11925 dados={'timestamp': '2026-09-26T00:55:11.936679', 'sensor_id': 'sensor-3', 'temperatura': 44.74, 'vibracao': 8.89}
+consumer-1  | 2026-09-26T00:55:11.939464073Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:55:12.437268587Z partição=1 offset=11926 dados={'timestamp': '2026-09-26T00:55:12.434094', 'sensor_id': 'sensor-2', 'temperatura': 66.45, 'vibracao': 8.41}
+consumer-1  | 2026-09-26T00:55:12.437285991Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:55:13.261511681Z partição=1 offset=11927 dados={'timestamp': '2026-09-26T00:55:13.254149', 'sensor_id': 'sensor-1', 'temperatura': 85.93, 'vibracao': 0.15}
+consumer-1  | 2026-09-26T00:55:13.261536123Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:14.439303623Z partição=2 offset=6094 dados={'timestamp': '2026-09-26T00:55:14.436146', 'sensor_id': 'sensor-2', 'temperatura': 71.79, 'vibracao': 5.33}
+consumer-1  | 2026-09-26T00:55:17.264549344Z partição=2 offset=6095 dados={'timestamp': '2026-09-26T00:55:17.261668', 'sensor_id': 'sensor-1', 'temperatura': 66.97, 'vibracao': 9.26}
+consumer-1  | 2026-09-26T00:55:17.264692191Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:55:21.994093142Z partição=1 offset=11928 dados={'timestamp': '2026-09-26T00:55:21.990854', 'sensor_id': 'sensor-2', 'temperatura': 34.45, 'vibracao': 4.8}
+consumer-1  | 2026-09-26T00:55:23.497508705Z partição=0 offset=363 dados={'timestamp': '2026-09-26T00:55:23.494774', 'sensor_id': 'sensor-3', 'temperatura': 90.67, 'vibracao': 6.93}
+consumer-1  | 2026-09-26T00:55:23.497525549Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:24.811788176Z partição=1 offset=11929 dados={'timestamp': '2026-09-26T00:55:24.808642', 'sensor_id': 'sensor-1', 'temperatura': 45.77, 'vibracao': 7.94}
+consumer-1  | 2026-09-26T00:55:25.506689255Z partição=0 offset=364 dados={'timestamp': '2026-09-26T00:55:25.496664', 'sensor_id': 'sensor-3', 'temperatura': 63.56, 'vibracao': 3.43}
+consumer-1  | 2026-09-26T00:55:27.505988384Z partição=2 offset=6096 dados={'timestamp': '2026-09-26T00:55:27.502901', 'sensor_id': 'sensor-3', 'temperatura': 29.41, 'vibracao': 8.89}
+consumer-1  | 2026-09-26T00:55:27.506008178Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:55:28.815971738Z partição=1 offset=11930 dados={'timestamp': '2026-09-26T00:55:28.812501', 'sensor_id': 'sensor-1', 'temperatura': 58.33, 'vibracao': 2.22}
+consumer-1  | 2026-09-26T00:55:30.005659381Z partição=1 offset=11931 dados={'timestamp': '2026-09-26T00:55:30.002844', 'sensor_id': 'sensor-2', 'temperatura': 88.69, 'vibracao': 0.29}
+consumer-1  | 2026-09-26T00:55:30.005673085Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:32.820437369Z partição=1 offset=11932 dados={'timestamp': '2026-09-26T00:55:32.816187', 'sensor_id': 'sensor-1', 'temperatura': 22.36, 'vibracao': 4.62}
+sensor-1    | 2026-09-26T00:57:05.594366206Z [sensor-1] Enviado: {'timestamp': '2026-09-26T00:57:05.592183', 'sensor_id': 'sensor-1', 'temperatura': 91.86, 'vibracao': 3.25}
+consumer-2  | 2026-09-26T00:56:16.427003345Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:17.117723708Z partição=4 offset=375 dados={'timestamp': '2026-09-26T00:56:17.113795', 'sensor_id': 'sensor-3', 'temperatura': 23.25, 'vibracao': 0.32}
+consumer-2  | 2026-09-26T00:56:17.637654060Z partição=5 offset=374 dados={'timestamp': '2026-09-26T00:56:17.633607', 'sensor_id': 'sensor-2', 'temperatura': 29.74, 'vibracao': 8.02}
+consumer-2  | 2026-09-26T00:56:17.637675370Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:18.431049407Z partição=4 offset=376 dados={'timestamp': '2026-09-26T00:56:18.425043', 'sensor_id': 'sensor-1', 'temperatura': 94.01, 'vibracao': 0.78}
+consumer-2  | 2026-09-26T00:56:18.431098876Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:19.119786339Z partição=3 offset=379 dados={'timestamp': '2026-09-26T00:56:19.115594', 'sensor_id': 'sensor-3', 'temperatura': 79.5, 'vibracao': 7.14}
+consumer-2  | 2026-09-26T00:56:19.639446990Z partição=4 offset=377 dados={'timestamp': '2026-09-26T00:56:19.635465', 'sensor_id': 'sensor-2', 'temperatura': 31.54, 'vibracao': 1.36}
+consumer-2  | 2026-09-26T00:56:20.433689973Z partição=4 offset=378 dados={'timestamp': '2026-09-26T00:56:20.427674', 'sensor_id': 'sensor-1', 'temperatura': 48.56, 'vibracao': 7.74}
+consumer-2  | 2026-09-26T00:56:21.124139206Z partição=5 offset=375 dados={'timestamp': '2026-09-26T00:56:21.118324', 'sensor_id': 'sensor-3', 'temperatura': 23.53, 'vibracao': 9.09}
+consumer-2  | 2026-09-26T00:56:21.124165177Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:21.640926741Z partição=1 offset=11946 dados={'timestamp': '2026-09-26T00:56:21.637303', 'sensor_id': 'sensor-2', 'temperatura': 41.44, 'vibracao': 5.66}
+consumer-2  | 2026-09-26T00:56:22.434746382Z partição=4 offset=379 dados={'timestamp': '2026-09-26T00:56:22.430991', 'sensor_id': 'sensor-1', 'temperatura': 70.26, 'vibracao': 7.66}
+consumer-2  | 2026-09-26T00:56:24.664887666Z partição=1 offset=11947 dados={'timestamp': '2026-09-26T00:56:24.661348', 'sensor_id': 'sensor-3', 'temperatura': 78.3, 'vibracao': 2.91}
+consumer-2  | 2026-09-26T00:56:25.183526682Z partição=4 offset=380 dados={'timestamp': '2026-09-26T00:56:25.179444', 'sensor_id': 'sensor-2', 'temperatura': 35.71, 'vibracao': 9.76}
+consumer-2  | 2026-09-26T00:56:25.183554271Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:25.976816951Z partição=3 offset=380 dados={'timestamp': '2026-09-26T00:56:25.972679', 'sensor_id': 'sensor-1', 'temperatura': 87.01, 'vibracao': 3.76}
+consumer-2  | 2026-09-26T00:56:25.976850353Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:26.673725165Z partição=4 offset=381 dados={'timestamp': '2026-09-26T00:56:26.663647', 'sensor_id': 'sensor-3', 'temperatura': 83.5, 'vibracao': 3.2}
+consumer-2  | 2026-09-26T00:56:26.674145499Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:27.486045764Z partição=5 offset=376 dados={'timestamp': '2026-09-26T00:56:27.181603', 'sensor_id': 'sensor-2', 'temperatura': 77.58, 'vibracao': 6.25}
+consumer-2  | 2026-09-26T00:56:27.981827660Z partição=5 offset=377 dados={'timestamp': '2026-09-26T00:56:27.975558', 'sensor_id': 'sensor-1', 'temperatura': 23.8, 'vibracao': 8.4}
+consumer-2  | 2026-09-26T00:56:27.981845741Z ANOMALIA: vibracao
+sensor-2    | 2026-09-26T00:56:33.190887109Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:33.188463', 'sensor_id': 'sensor-2', 'temperatura': 33.1, 'vibracao': 8.96}
+sensor-2    | 2026-09-26T00:56:35.193704109Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:35.190827', 'sensor_id': 'sensor-2', 'temperatura': 41.85, 'vibracao': 9.58}
+sensor-2    | 2026-09-26T00:56:37.195966011Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:37.193593', 'sensor_id': 'sensor-2', 'temperatura': 43.35, 'vibracao': 4.42}
+sensor-2    | 2026-09-26T00:56:39.198368154Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:39.195998', 'sensor_id': 'sensor-2', 'temperatura': 65.36, 'vibracao': 7.66}
+sensor-2    | 2026-09-26T00:56:41.200284492Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:41.198281', 'sensor_id': 'sensor-2', 'temperatura': 74.36, 'vibracao': 1.03}
+sensor-2    | 2026-09-26T00:56:43.202251051Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:43.200279', 'sensor_id': 'sensor-2', 'temperatura': 62.07, 'vibracao': 2.04}
+sensor-2    | 2026-09-26T00:56:45.203677560Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:45.202118', 'sensor_id': 'sensor-2', 'temperatura': 86.61, 'vibracao': 6.13}
+sensor-2    | 2026-09-26T00:56:47.206208917Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:47.203613', 'sensor_id': 'sensor-2', 'temperatura': 40.33, 'vibracao': 7.32}
+sensor-2    | 2026-09-26T00:56:49.208370060Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:49.206151', 'sensor_id': 'sensor-2', 'temperatura': 89.08, 'vibracao': 5.71}
+sensor-2    | 2026-09-26T00:56:51.209915574Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:51.208271', 'sensor_id': 'sensor-2', 'temperatura': 24.63, 'vibracao': 7.6}
+sensor-2    | 2026-09-26T00:56:53.211695690Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:53.209787', 'sensor_id': 'sensor-2', 'temperatura': 88.99, 'vibracao': 5.98}
+sensor-2    | 2026-09-26T00:56:56.784823517Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:56.782662', 'sensor_id': 'sensor-2', 'temperatura': 23.77, 'vibracao': 7.23}
+sensor-2    | 2026-09-26T00:56:58.786959745Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:56:58.784775', 'sensor_id': 'sensor-2', 'temperatura': 88.59, 'vibracao': 4.71}
+sensor-2    | 2026-09-26T00:57:00.788620851Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:57:00.786861', 'sensor_id': 'sensor-2', 'temperatura': 48.93, 'vibracao': 7.66}
+sensor-2    | 2026-09-26T00:57:02.790681251Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:57:02.788507', 'sensor_id': 'sensor-2', 'temperatura': 42.84, 'vibracao': 4.49}
+sensor-2    | 2026-09-26T00:57:04.793905712Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:57:04.790616', 'sensor_id': 'sensor-2', 'temperatura': 63.92, 'vibracao': 7.77}
+sensor-2    | 2026-09-26T00:57:06.797129793Z [sensor-2] Enviado: {'timestamp': '2026-09-26T00:57:06.793804', 'sensor_id': 'sensor-2', 'temperatura': 29.91, 'vibracao': 6.69}
+sensor-3    | 2026-09-26T00:55:29.507260139Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:29.504989', 'sensor_id': 'sensor-3', 'temperatura': 76.71, 'vibracao': 8.64}
+sensor-3    | 2026-09-26T00:55:31.509004097Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:31.507111', 'sensor_id': 'sensor-3', 'temperatura': 57.26, 'vibracao': 8.48}
+sensor-3    | 2026-09-26T00:55:33.511298864Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:33.508944', 'sensor_id': 'sensor-3', 'temperatura': 32.69, 'vibracao': 0.34}
+sensor-3    | 2026-09-26T00:55:35.513444861Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:35.511257', 'sensor_id': 'sensor-3', 'temperatura': 85.2, 'vibracao': 6.11}
+sensor-3    | 2026-09-26T00:55:37.515794575Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:37.513402', 'sensor_id': 'sensor-3', 'temperatura': 27.88, 'vibracao': 4.41}
+sensor-3    | 2026-09-26T00:55:39.518635137Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:39.515646', 'sensor_id': 'sensor-3', 'temperatura': 92.62, 'vibracao': 2.72}
+sensor-3    | 2026-09-26T00:55:41.520358597Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:41.518473', 'sensor_id': 'sensor-3', 'temperatura': 37.97, 'vibracao': 2.17}
+sensor-3    | 2026-09-26T00:55:43.522194703Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:43.520230', 'sensor_id': 'sensor-3', 'temperatura': 21.49, 'vibracao': 6.81}
+sensor-3    | 2026-09-26T00:55:45.523786950Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:45.522062', 'sensor_id': 'sensor-3', 'temperatura': 86.1, 'vibracao': 5.79}
+sensor-3    | 2026-09-26T00:55:47.525591947Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:47.523627', 'sensor_id': 'sensor-3', 'temperatura': 87.4, 'vibracao': 2.34}
+sensor-3    | 2026-09-26T00:55:49.527685683Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:49.525465', 'sensor_id': 'sensor-3', 'temperatura': 51.65, 'vibracao': 8.65}
+sensor-3    | 2026-09-26T00:55:53.093157763Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:53.090978', 'sensor_id': 'sensor-3', 'temperatura': 79.15, 'vibracao': 8.21}
+sensor-3    | 2026-09-26T00:55:55.094939186Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:55.093091', 'sensor_id': 'sensor-3', 'temperatura': 58.06, 'vibracao': 7.51}
+sensor-3    | 2026-09-26T00:55:57.096844150Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:57.094903', 'sensor_id': 'sensor-3', 'temperatura': 93.78, 'vibracao': 2.52}
+sensor-3    | 2026-09-26T00:55:59.099269933Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:55:59.096712', 'sensor_id': 'sensor-3', 'temperatura': 55.12, 'vibracao': 9.61}
+sensor-3    | 2026-09-26T00:56:01.101352656Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:01.099208', 'sensor_id': 'sensor-3', 'temperatura': 28.75, 'vibracao': 9.97}
+sensor-3    | 2026-09-26T00:56:03.103235658Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:03.101247', 'sensor_id': 'sensor-3', 'temperatura': 80.51, 'vibracao': 0.88}
+sensor-3    | 2026-09-26T00:56:05.104979534Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:05.103148', 'sensor_id': 'sensor-3', 'temperatura': 27.07, 'vibracao': 2.81}
+sensor-3    | 2026-09-26T00:56:07.106409331Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:07.104858', 'sensor_id': 'sensor-3', 'temperatura': 64.59, 'vibracao': 1.27}
+sensor-3    | 2026-09-26T00:56:09.108414894Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:09.106368', 'sensor_id': 'sensor-3', 'temperatura': 81.76, 'vibracao': 8.14}
+sensor-3    | 2026-09-26T00:56:11.110122362Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:11.108289', 'sensor_id': 'sensor-3', 'temperatura': 37.05, 'vibracao': 1.64}
+sensor-3    | 2026-09-26T00:56:13.112106754Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:13.110043', 'sensor_id': 'sensor-3', 'temperatura': 60.39, 'vibracao': 9.88}
+sensor-3    | 2026-09-26T00:56:15.113920782Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:15.112009', 'sensor_id': 'sensor-3', 'temperatura': 85.1, 'vibracao': 1.8}
+sensor-3    | 2026-09-26T00:56:17.115670354Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:17.113795', 'sensor_id': 'sensor-3', 'temperatura': 23.25, 'vibracao': 0.32}
+sensor-3    | 2026-09-26T00:56:19.118457235Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:19.115594', 'sensor_id': 'sensor-3', 'temperatura': 79.5, 'vibracao': 7.14}
+sensor-3    | 2026-09-26T00:56:21.121446273Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:21.118324', 'sensor_id': 'sensor-3', 'temperatura': 23.53, 'vibracao': 9.09}
+sensor-3    | 2026-09-26T00:56:24.663542960Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:24.661348', 'sensor_id': 'sensor-3', 'temperatura': 78.3, 'vibracao': 2.91}
+sensor-3    | 2026-09-26T00:56:26.669513648Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:26.663647', 'sensor_id': 'sensor-3', 'temperatura': 83.5, 'vibracao': 3.2}
+sensor-3    | 2026-09-26T00:56:28.671114205Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:28.669121', 'sensor_id': 'sensor-3', 'temperatura': 92.09, 'vibracao': 7.24}
+sensor-3    | 2026-09-26T00:56:30.672871589Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:30.670973', 'sensor_id': 'sensor-3', 'temperatura': 55.62, 'vibracao': 8.46}
+sensor-3    | 2026-09-26T00:56:32.675770259Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:32.672752', 'sensor_id': 'sensor-3', 'temperatura': 20.33, 'vibracao': 0.93}
+sensor-3    | 2026-09-26T00:56:34.677616908Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:34.675657', 'sensor_id': 'sensor-3', 'temperatura': 84.09, 'vibracao': 5.41}
+sensor-3    | 2026-09-26T00:56:36.679535431Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:36.677531', 'sensor_id': 'sensor-3', 'temperatura': 80.3, 'vibracao': 0.25}
+sensor-3    | 2026-09-26T00:56:38.681341363Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:38.679419', 'sensor_id': 'sensor-3', 'temperatura': 90.39, 'vibracao': 5.26}
+sensor-3    | 2026-09-26T00:56:40.683166773Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:40.681211', 'sensor_id': 'sensor-3', 'temperatura': 33.13, 'vibracao': 5.34}
+sensor-3    | 2026-09-26T00:56:42.687467109Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:42.683124', 'sensor_id': 'sensor-3', 'temperatura': 83.77, 'vibracao': 4.35}
+consumer-1  | 2026-09-26T00:55:33.512656282Z partição=0 offset=365 dados={'timestamp': '2026-09-26T00:55:33.508944', 'sensor_id': 'sensor-3', 'temperatura': 32.69, 'vibracao': 0.34}
+consumer-2  | 2026-09-26T00:56:28.674781392Z partição=0 offset=375 dados={'timestamp': '2026-09-26T00:56:28.669121', 'sensor_id': 'sensor-3', 'temperatura': 92.09, 'vibracao': 7.24}
+consumer-2  | 2026-09-26T00:56:28.674844294Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:29.188264109Z partição=1 offset=11948 dados={'timestamp': '2026-09-26T00:56:29.184967', 'sensor_id': 'sensor-2', 'temperatura': 93.47, 'vibracao': 5.87}
+consumer-2  | 2026-09-26T00:56:29.188279525Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:29.986275673Z partição=1 offset=11949 dados={'timestamp': '2026-09-26T00:56:29.977615', 'sensor_id': 'sensor-1', 'temperatura': 36.43, 'vibracao': 5.7}
+consumer-2  | 2026-09-26T00:56:30.675356000Z partição=5 offset=378 dados={'timestamp': '2026-09-26T00:56:30.670973', 'sensor_id': 'sensor-3', 'temperatura': 55.62, 'vibracao': 8.46}
+consumer-2  | 2026-09-26T00:56:30.675385310Z ANOMALIA: vibracao
+sensor-3    | 2026-09-26T00:56:44.689158220Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:44.687212', 'sensor_id': 'sensor-3', 'temperatura': 94.55, 'vibracao': 5.96}
+consumer-1  | 2026-09-26T00:55:34.822852853Z partição=0 offset=366 dados={'timestamp': '2026-09-26T00:55:34.818516', 'sensor_id': 'sensor-1', 'temperatura': 94.78, 'vibracao': 5.12}
+consumer-2  | 2026-09-26T00:56:31.190295752Z partição=1 offset=11950 dados={'timestamp': '2026-09-26T00:56:31.186440', 'sensor_id': 'sensor-2', 'temperatura': 20.96, 'vibracao': 4.02}
+consumer-2  | 2026-09-26T00:56:31.989656057Z partição=2 offset=6103 dados={'timestamp': '2026-09-26T00:56:31.981993', 'sensor_id': 'sensor-1', 'temperatura': 66.25, 'vibracao': 0.59}
+consumer-2  | 2026-09-26T00:56:32.678768073Z partição=4 offset=382 dados={'timestamp': '2026-09-26T00:56:32.672752', 'sensor_id': 'sensor-3', 'temperatura': 20.33, 'vibracao': 0.93}
+consumer-2  | 2026-09-26T00:56:33.192430742Z partição=5 offset=379 dados={'timestamp': '2026-09-26T00:56:33.188463', 'sensor_id': 'sensor-2', 'temperatura': 33.1, 'vibracao': 8.96}
+consumer-2  | 2026-09-26T00:56:33.192447586Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:33.989417504Z partição=5 offset=380 dados={'timestamp': '2026-09-26T00:56:33.986310', 'sensor_id': 'sensor-1', 'temperatura': 78.2, 'vibracao': 2.4}
+consumer-2  | 2026-09-26T00:56:34.680126790Z partição=0 offset=376 dados={'timestamp': '2026-09-26T00:56:34.675657', 'sensor_id': 'sensor-3', 'temperatura': 84.09, 'vibracao': 5.41}
+consumer-2  | 2026-09-26T00:56:34.680147503Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:35.195213021Z partição=2 offset=6104 dados={'timestamp': '2026-09-26T00:56:35.190827', 'sensor_id': 'sensor-2', 'temperatura': 41.85, 'vibracao': 9.58}
+consumer-2  | 2026-09-26T00:56:35.195234969Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:55:34.822884042Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:35.514869954Z partição=1 offset=11933 dados={'timestamp': '2026-09-26T00:55:35.511257', 'sensor_id': 'sensor-3', 'temperatura': 85.2, 'vibracao': 6.11}
+consumer-1  | 2026-09-26T00:55:35.514895628Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:38.023891985Z partição=1 offset=11934 dados={'timestamp': '2026-09-26T00:55:38.019166', 'sensor_id': 'sensor-2', 'temperatura': 39.67, 'vibracao': 0.93}
+consumer-1  | 2026-09-26T00:55:39.520326763Z partição=0 offset=367 dados={'timestamp': '2026-09-26T00:55:39.515646', 'sensor_id': 'sensor-3', 'temperatura': 92.62, 'vibracao': 2.72}
+consumer-1  | 2026-09-26T00:55:39.520365084Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:40.024833912Z partição=1 offset=11935 dados={'timestamp': '2026-09-26T00:55:40.021311', 'sensor_id': 'sensor-2', 'temperatura': 51.01, 'vibracao': 8.16}
+consumer-1  | 2026-09-26T00:55:40.024855307Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:55:41.521754974Z partição=1 offset=11936 dados={'timestamp': '2026-09-26T00:55:41.518473', 'sensor_id': 'sensor-3', 'temperatura': 37.97, 'vibracao': 2.17}
+sensor-3    | 2026-09-26T00:56:46.691060460Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:46.689043', 'sensor_id': 'sensor-3', 'temperatura': 23.06, 'vibracao': 7.7}
+sensor-3    | 2026-09-26T00:56:48.693424946Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:48.690987', 'sensor_id': 'sensor-3', 'temperatura': 63.38, 'vibracao': 4.28}
+sensor-3    | 2026-09-26T00:56:50.695837369Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:50.693273', 'sensor_id': 'sensor-3', 'temperatura': 40.73, 'vibracao': 3.75}
+sensor-3    | 2026-09-26T00:56:52.698314297Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:52.695762', 'sensor_id': 'sensor-3', 'temperatura': 53.63, 'vibracao': 8.09}
+sensor-3    | 2026-09-26T00:56:56.271213215Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:56.269238', 'sensor_id': 'sensor-3', 'temperatura': 48.56, 'vibracao': 8.11}
+sensor-3    | 2026-09-26T00:56:58.272784306Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:56:58.271049', 'sensor_id': 'sensor-3', 'temperatura': 45.73, 'vibracao': 7.62}
+sensor-3    | 2026-09-26T00:57:00.274503301Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:57:00.272647', 'sensor_id': 'sensor-3', 'temperatura': 46.22, 'vibracao': 0.48}
+sensor-3    | 2026-09-26T00:57:02.277776019Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:57:02.274435', 'sensor_id': 'sensor-3', 'temperatura': 48.04, 'vibracao': 1.17}
+sensor-3    | 2026-09-26T00:57:04.279876967Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:57:04.277619', 'sensor_id': 'sensor-3', 'temperatura': 84.09, 'vibracao': 8.93}
+sensor-3    | 2026-09-26T00:57:06.284286238Z [sensor-3] Enviado: {'timestamp': '2026-09-26T00:57:06.279810', 'sensor_id': 'sensor-3', 'temperatura': 76.35, 'vibracao': 8.92}
+consumer-1  | 2026-09-26T00:55:43.523347093Z partição=0 offset=368 dados={'timestamp': '2026-09-26T00:55:43.520230', 'sensor_id': 'sensor-3', 'temperatura': 21.49, 'vibracao': 6.81}
+consumer-1  | 2026-09-26T00:55:44.028278964Z partição=0 offset=369 dados={'timestamp': '2026-09-26T00:55:44.025039', 'sensor_id': 'sensor-2', 'temperatura': 20.11, 'vibracao': 1.4}
+consumer-1  | 2026-09-26T00:55:45.525014568Z partição=1 offset=11937 dados={'timestamp': '2026-09-26T00:55:45.522062', 'sensor_id': 'sensor-3', 'temperatura': 86.1, 'vibracao': 5.79}
+consumer-1  | 2026-09-26T00:55:45.525035301Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:47.527155952Z partição=2 offset=6097 dados={'timestamp': '2026-09-26T00:55:47.523627', 'sensor_id': 'sensor-3', 'temperatura': 87.4, 'vibracao': 2.34}
+consumer-1  | 2026-09-26T00:55:47.527177161Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:48.043788050Z partição=1 offset=11938 dados={'timestamp': '2026-09-26T00:55:48.041126', 'sensor_id': 'sensor-2', 'temperatura': 27.93, 'vibracao': 3.14}
+consumer-1  | 2026-09-26T00:55:49.529173415Z partição=0 offset=370 dados={'timestamp': '2026-09-26T00:55:49.525465', 'sensor_id': 'sensor-3', 'temperatura': 51.65, 'vibracao': 8.65}
+consumer-1  | 2026-09-26T00:55:49.529202707Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:55:50.046356172Z partição=1 offset=11939 dados={'timestamp': '2026-09-26T00:55:50.042718', 'sensor_id': 'sensor-2', 'temperatura': 91.06, 'vibracao': 1.53}
+consumer-1  | 2026-09-26T00:55:50.046381850Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:54.406566127Z partição=2 offset=6098 dados={'timestamp': '2026-09-26T00:55:54.401251', 'sensor_id': 'sensor-1', 'temperatura': 29.78, 'vibracao': 9.47}
+consumer-1  | 2026-09-26T00:55:54.406624853Z ANOMALIA: vibracao
+consumer-1  | 2026-09-26T00:55:55.096076761Z partição=1 offset=11940 dados={'timestamp': '2026-09-26T00:55:55.093091', 'sensor_id': 'sensor-3', 'temperatura': 58.06, 'vibracao': 7.51}
+consumer-1  | 2026-09-26T00:55:55.615805970Z partição=2 offset=6099 dados={'timestamp': '2026-09-26T00:55:55.611915', 'sensor_id': 'sensor-2', 'temperatura': 26.89, 'vibracao': 7.92}
+consumer-1  | 2026-09-26T00:55:57.097983534Z partição=1 offset=11941 dados={'timestamp': '2026-09-26T00:55:57.094903', 'sensor_id': 'sensor-3', 'temperatura': 93.78, 'vibracao': 2.52}
+consumer-1  | 2026-09-26T00:55:57.098003521Z ANOMALIA: temperatura
+consumer-1  | 2026-09-26T00:55:57.617959637Z partição=2 offset=6100 dados={'timestamp': '2026-09-26T00:55:57.614430', 'sensor_id': 'sensor-2', 'temperatura': 91.53, 'vibracao': 3.7}
+consumer-1  | 2026-09-26T00:55:57.617983051Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:35.991817652Z partição=0 offset=377 dados={'timestamp': '2026-09-26T00:56:35.987996', 'sensor_id': 'sensor-1', 'temperatura': 60.44, 'vibracao': 3.23}
+consumer-2  | 2026-09-26T00:56:36.681994481Z partição=5 offset=381 dados={'timestamp': '2026-09-26T00:56:36.677531', 'sensor_id': 'sensor-3', 'temperatura': 80.3, 'vibracao': 0.25}
+consumer-2  | 2026-09-26T00:56:36.682052345Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:37.197435018Z partição=4 offset=383 dados={'timestamp': '2026-09-26T00:56:37.193593', 'sensor_id': 'sensor-2', 'temperatura': 43.35, 'vibracao': 4.42}
+consumer-2  | 2026-09-26T00:56:37.998705392Z partição=0 offset=378 dados={'timestamp': '2026-09-26T00:56:37.990615', 'sensor_id': 'sensor-1', 'temperatura': 50.53, 'vibracao': 5.68}
+consumer-2  | 2026-09-26T00:56:38.682733029Z partição=3 offset=381 dados={'timestamp': '2026-09-26T00:56:38.679419', 'sensor_id': 'sensor-3', 'temperatura': 90.39, 'vibracao': 5.26}
+consumer-2  | 2026-09-26T00:56:38.682748611Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:39.199963149Z partição=4 offset=384 dados={'timestamp': '2026-09-26T00:56:39.195998', 'sensor_id': 'sensor-2', 'temperatura': 65.36, 'vibracao': 7.66}
+consumer-2  | 2026-09-26T00:56:39.997792602Z partição=5 offset=382 dados={'timestamp': '2026-09-26T00:56:39.994175', 'sensor_id': 'sensor-1', 'temperatura': 22.74, 'vibracao': 7.82}
+consumer-2  | 2026-09-26T00:56:40.685092416Z partição=4 offset=385 dados={'timestamp': '2026-09-26T00:56:40.681211', 'sensor_id': 'sensor-3', 'temperatura': 33.13, 'vibracao': 5.34}
+consumer-2  | 2026-09-26T00:56:41.201444514Z partição=2 offset=6105 dados={'timestamp': '2026-09-26T00:56:41.198281', 'sensor_id': 'sensor-2', 'temperatura': 74.36, 'vibracao': 1.03}
+consumer-2  | 2026-09-26T00:56:42.000229247Z partição=1 offset=11951 dados={'timestamp': '2026-09-26T00:56:41.996357', 'sensor_id': 'sensor-1', 'temperatura': 89.57, 'vibracao': 4.8}
+consumer-2  | 2026-09-26T00:56:42.000257835Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:42.689731510Z partição=2 offset=6106 dados={'timestamp': '2026-09-26T00:56:42.683124', 'sensor_id': 'sensor-3', 'temperatura': 83.77, 'vibracao': 4.35}
+consumer-2  | 2026-09-26T00:56:42.689775863Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:43.203171171Z partição=2 offset=6107 dados={'timestamp': '2026-09-26T00:56:43.200279', 'sensor_id': 'sensor-2', 'temperatura': 62.07, 'vibracao': 2.04}
+consumer-2  | 2026-09-26T00:56:44.001776281Z partição=0 offset=379 dados={'timestamp': '2026-09-26T00:56:43.998353', 'sensor_id': 'sensor-1', 'temperatura': 26.58, 'vibracao': 6.37}
+consumer-2  | 2026-09-26T00:56:44.690515037Z partição=0 offset=380 dados={'timestamp': '2026-09-26T00:56:44.687212', 'sensor_id': 'sensor-3', 'temperatura': 94.55, 'vibracao': 5.96}
+consumer-2  | 2026-09-26T00:56:44.690539255Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:45.205006644Z partição=1 offset=11952 dados={'timestamp': '2026-09-26T00:56:45.202118', 'sensor_id': 'sensor-2', 'temperatura': 86.61, 'vibracao': 6.13}
+consumer-2  | 2026-09-26T00:56:45.205032477Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:46.004690958Z partição=1 offset=11953 dados={'timestamp': '2026-09-26T00:56:46.000438', 'sensor_id': 'sensor-1', 'temperatura': 86.09, 'vibracao': 5.39}
+consumer-2  | 2026-09-26T00:56:46.004715936Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:46.692984280Z partição=5 offset=383 dados={'timestamp': '2026-09-26T00:56:46.689043', 'sensor_id': 'sensor-3', 'temperatura': 23.06, 'vibracao': 7.7}
+consumer-2  | 2026-09-26T00:56:47.433984795Z partição=0 offset=381 dados={'timestamp': '2026-09-26T00:56:47.203613', 'sensor_id': 'sensor-2', 'temperatura': 40.33, 'vibracao': 7.32}
+consumer-2  | 2026-09-26T00:56:48.008533733Z partição=2 offset=6108 dados={'timestamp': '2026-09-26T00:56:48.002900', 'sensor_id': 'sensor-1', 'temperatura': 71.68, 'vibracao': 1.39}
+consumer-2  | 2026-09-26T00:56:48.694676625Z partição=4 offset=386 dados={'timestamp': '2026-09-26T00:56:48.690987', 'sensor_id': 'sensor-3', 'temperatura': 63.38, 'vibracao': 4.28}
+consumer-2  | 2026-09-26T00:56:49.210003445Z partição=1 offset=11954 dados={'timestamp': '2026-09-26T00:56:49.206151', 'sensor_id': 'sensor-2', 'temperatura': 89.08, 'vibracao': 5.71}
+consumer-2  | 2026-09-26T00:56:49.210028139Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:50.436421169Z partição=1 offset=11955 dados={'timestamp': '2026-09-26T00:56:50.006065', 'sensor_id': 'sensor-1', 'temperatura': 46.63, 'vibracao': 5.59}
+consumer-2  | 2026-09-26T00:56:50.698298475Z partição=1 offset=11956 dados={'timestamp': '2026-09-26T00:56:50.693273', 'sensor_id': 'sensor-3', 'temperatura': 40.73, 'vibracao': 3.75}
+consumer-2  | 2026-09-26T00:56:51.212169083Z partição=4 offset=387 dados={'timestamp': '2026-09-26T00:56:51.208271', 'sensor_id': 'sensor-2', 'temperatura': 24.63, 'vibracao': 7.6}
+consumer-2  | 2026-09-26T00:56:52.012988734Z partição=3 offset=382 dados={'timestamp': '2026-09-26T00:56:52.009132', 'sensor_id': 'sensor-1', 'temperatura': 66.29, 'vibracao': 0.39}
+consumer-2  | 2026-09-26T00:56:52.700502444Z partição=1 offset=11957 dados={'timestamp': '2026-09-26T00:56:52.695762', 'sensor_id': 'sensor-3', 'temperatura': 53.63, 'vibracao': 8.09}
+consumer-2  | 2026-09-26T00:56:52.700532128Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:53.213926174Z partição=2 offset=6109 dados={'timestamp': '2026-09-26T00:56:53.209787', 'sensor_id': 'sensor-2', 'temperatura': 88.99, 'vibracao': 5.98}
+consumer-2  | 2026-09-26T00:56:53.213970130Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:54.014557065Z partição=1 offset=11958 dados={'timestamp': '2026-09-26T00:56:54.011310', 'sensor_id': 'sensor-1', 'temperatura': 73.48, 'vibracao': 1.18}
+consumer-2  | 2026-09-26T00:56:56.272435396Z partição=3 offset=383 dados={'timestamp': '2026-09-26T00:56:56.269238', 'sensor_id': 'sensor-3', 'temperatura': 48.56, 'vibracao': 8.11}
+consumer-2  | 2026-09-26T00:56:56.272456327Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:56:56.785765222Z partição=2 offset=6110 dados={'timestamp': '2026-09-26T00:56:56.782662', 'sensor_id': 'sensor-2', 'temperatura': 23.77, 'vibracao': 7.23}
+consumer-2  | 2026-09-26T00:56:57.586938322Z partição=5 offset=384 dados={'timestamp': '2026-09-26T00:56:57.583984', 'sensor_id': 'sensor-1', 'temperatura': 74.03, 'vibracao': 4.14}
+consumer-2  | 2026-09-26T00:56:58.274357176Z partição=1 offset=11959 dados={'timestamp': '2026-09-26T00:56:58.271049', 'sensor_id': 'sensor-3', 'temperatura': 45.73, 'vibracao': 7.62}
+consumer-2  | 2026-09-26T00:56:58.788372493Z partição=3 offset=384 dados={'timestamp': '2026-09-26T00:56:58.784775', 'sensor_id': 'sensor-2', 'temperatura': 88.59, 'vibracao': 4.71}
+consumer-2  | 2026-09-26T00:56:58.788396659Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:56:59.588944642Z partição=5 offset=385 dados={'timestamp': '2026-09-26T00:56:59.585786', 'sensor_id': 'sensor-1', 'temperatura': 82.15, 'vibracao': 4.65}
+consumer-2  | 2026-09-26T00:56:59.588969580Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:57:00.275645375Z partição=2 offset=6111 dados={'timestamp': '2026-09-26T00:57:00.272647', 'sensor_id': 'sensor-3', 'temperatura': 46.22, 'vibracao': 0.48}
+consumer-2  | 2026-09-26T00:57:00.790445751Z partição=1 offset=11960 dados={'timestamp': '2026-09-26T00:57:00.786861', 'sensor_id': 'sensor-2', 'temperatura': 48.93, 'vibracao': 7.66}
+consumer-2  | 2026-09-26T00:57:01.591530155Z partição=4 offset=388 dados={'timestamp': '2026-09-26T00:57:01.587584', 'sensor_id': 'sensor-1', 'temperatura': 85.12, 'vibracao': 8.53}
+consumer-2  | 2026-09-26T00:57:01.591547097Z ANOMALIA: temperatura, vibracao
+consumer-2  | 2026-09-26T00:57:02.279570081Z partição=0 offset=382 dados={'timestamp': '2026-09-26T00:57:02.274435', 'sensor_id': 'sensor-3', 'temperatura': 48.04, 'vibracao': 1.17}
+consumer-2  | 2026-09-26T00:57:02.791589561Z partição=3 offset=385 dados={'timestamp': '2026-09-26T00:57:02.788507', 'sensor_id': 'sensor-2', 'temperatura': 42.84, 'vibracao': 4.49}
+consumer-2  | 2026-09-26T00:57:03.593506130Z partição=5 offset=386 dados={'timestamp': '2026-09-26T00:57:03.589782', 'sensor_id': 'sensor-1', 'temperatura': 23.92, 'vibracao': 9.56}
+consumer-2  | 2026-09-26T00:57:03.593522216Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:57:04.281794478Z partição=5 offset=387 dados={'timestamp': '2026-09-26T00:57:04.277619', 'sensor_id': 'sensor-3', 'temperatura': 84.09, 'vibracao': 8.93}
+consumer-2  | 2026-09-26T00:57:04.281821795Z ANOMALIA: temperatura, vibracao
+consumer-2  | 2026-09-26T00:57:04.796893627Z partição=5 offset=388 dados={'timestamp': '2026-09-26T00:57:04.790616', 'sensor_id': 'sensor-2', 'temperatura': 63.92, 'vibracao': 7.77}
+consumer-2  | 2026-09-26T00:57:05.596100304Z partição=2 offset=6112 dados={'timestamp': '2026-09-26T00:57:05.592183', 'sensor_id': 'sensor-1', 'temperatura': 91.86, 'vibracao': 3.25}
+consumer-2  | 2026-09-26T00:57:05.596135997Z ANOMALIA: temperatura
+consumer-2  | 2026-09-26T00:57:06.289044991Z partição=5 offset=389 dados={'timestamp': '2026-09-26T00:57:06.279810', 'sensor_id': 'sensor-3', 'temperatura': 76.35, 'vibracao': 8.92}
+consumer-2  | 2026-09-26T00:57:06.289075639Z ANOMALIA: vibracao
+consumer-2  | 2026-09-26T00:57:06.798579777Z partição=3 offset=386 dados={'timestamp': '2026-09-26T00:57:06.793804', 'sensor_id': 'sensor-2', 'temperatura': 29.91, 'vibracao': 6.69}

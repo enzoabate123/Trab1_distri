@@ -1,0 +1,48 @@
+docker compose ps -a
+NAME                      IMAGE                                                                     COMMAND                  SERVICE      CREATED          STATUS                     PORTS
+kafka-1                   apache/kafka:3.7.2                                                        "/__cacert_entrypoin…"   kafka-1      29 hours ago     Up 29 hours                9092/tcp
+kafka-2                   apache/kafka:3.7.2                                                        "/__cacert_entrypoin…"   kafka-2      29 hours ago     Up 6 minutes               9092/tcp
+kafka-3                   apache/kafka:3.7.2                                                        "/__cacert_entrypoin…"   kafka-3      29 hours ago     Up 29 hours                9092/tcp
+kafka-init                apache/kafka:3.7.2                                                        "/bin/bash -ec 'echo…"   kafka-init   28 hours ago     Exited (0) 2 minutes ago   
+sensor-1                  trab1_distri-sensor-1                                                     "python -u producer.…"   sensor-1     52 seconds ago   Up 47 seconds              
+sensor-2                  trab1_distri-sensor-2                                                     "python -u producer.…"   sensor-2     52 seconds ago   Up 47 seconds              
+sensor-3                  trab1_distri-sensor-3                                                     "python -u producer.…"   sensor-3     52 seconds ago   Up 47 seconds              
+trab1_distri-consumer-1   sha256:06b74fbde6a7ef53e1059d205c212db66c49d91fe1c4d1ad38655cd1ea77243d   "python -u consumer.…"   consumer     28 hours ago     Up 9 minutes               
+trab1_distri-consumer-2   sha256:06b74fbde6a7ef53e1059d205c212db66c49d91fe1c4d1ad38655cd1ea77243d   "python -u consumer.…"   consumer     28 hours ago     Up 28 hours                
+docker compose exec -T kafka-1 /opt/kafka/bin/kafka-topics.sh --bootstrap-server kafka-1:9092 --describe --topic "dados-sensores"
+Topic: dados-sensores	TopicId: 1VzHlbt6Smuz7tOAnzn0WQ	PartitionCount: 6	ReplicationFactor: 2	Configs: 
+	Topic: dados-sensores	Partition: 0	Leader: 3	Replicas: 3,1	Isr: 3,1
+	Topic: dados-sensores	Partition: 1	Leader: 1	Replicas: 1,2	Isr: 1,2
+	Topic: dados-sensores	Partition: 2	Leader: 2	Replicas: 2,3	Isr: 3,2
+	Topic: dados-sensores	Partition: 3	Leader: 2	Replicas: 2,1	Isr: 1,2
+	Topic: dados-sensores	Partition: 4	Leader: 1	Replicas: 1,3	Isr: 1,3
+	Topic: dados-sensores	Partition: 5	Leader: 3	Replicas: 3,2	Isr: 3,2
+docker compose exec -T kafka-1 /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server kafka-1:9092 --describe --group "processadores" --members --verbose
+
+GROUP           CONSUMER-ID                                             HOST            CLIENT-ID          #PARTITIONS     ASSIGNMENT
+processadores   kafka-python-2.2.3-92dc53f9-2d4e-4781-bfc4-744b2852921f /172.18.0.9     kafka-python-2.2.3 3               dados-sensores(3,4,5)
+processadores   kafka-python-2.2.3-519fe9b4-8db7-4368-ba97-12037d8261e2 /172.18.0.8     kafka-python-2.2.3 3               dados-sensores(0,1,2)
+docker compose exec -T kafka-1 /opt/kafka/bin/kafka-consumer-groups.sh --bootstrap-server kafka-1:9092 --describe --group "processadores"
+
+GROUP           TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                             HOST            CLIENT-ID
+processadores   dados-sensores  3          1673            1673            0               kafka-python-2.2.3-92dc53f9-2d4e-4781-bfc4-744b2852921f /172.18.0.9     kafka-python-2.2.3
+processadores   dados-sensores  4          1572            1574            2               kafka-python-2.2.3-92dc53f9-2d4e-4781-bfc4-744b2852921f /172.18.0.9     kafka-python-2.2.3
+processadores   dados-sensores  5          1631            1632            1               kafka-python-2.2.3-92dc53f9-2d4e-4781-bfc4-744b2852921f /172.18.0.9     kafka-python-2.2.3
+processadores   dados-sensores  0          1613            1613            0               kafka-python-2.2.3-519fe9b4-8db7-4368-ba97-12037d8261e2 /172.18.0.8     kafka-python-2.2.3
+processadores   dados-sensores  1          13188           13188           0               kafka-python-2.2.3-519fe9b4-8db7-4368-ba97-12037d8261e2 /172.18.0.8     kafka-python-2.2.3
+processadores   dados-sensores  2          7329            7329            0               kafka-python-2.2.3-519fe9b4-8db7-4368-ba97-12037d8261e2 /172.18.0.8     kafka-python-2.2.3
+docker compose run --rm --no-deps -T consumer python -c 'import os, sqlite3; c = sqlite3.connect("file:" + os.environ["DB_PATH"] + "?mode=ro", uri=True); print("Total de alertas:", c.execute("SELECT COUNT(*) FROM alertas").fetchone()[0]); print("Ultimos 10: id, sensor, temperatura, vibracao, motivo, criado_em"); [print(row) for row in c.execute("SELECT * FROM alertas ORDER BY id DESC LIMIT 10")]; c.close()'
+ Container trab1_distri-consumer-run-6bad6d46ff3a Creating 
+ Container trab1_distri-consumer-run-6bad6d46ff3a Created 
+Total de alertas: 10002
+Ultimos 10: id, sensor, temperatura, vibracao, motivo, criado_em
+(10002, 'sensor-3', 25.49, 8.1, 'vibracao', '2026-09-26 01:06:25')
+(10001, 'sensor-3', 90.33, 1.07, 'temperatura', '2026-09-26 01:06:22')
+(10000, 'sensor-2', 80.98, 9.48, 'temperatura, vibracao', '2026-09-26 01:06:19')
+(9999, 'sensor-2', 43.43, 9.55, 'vibracao', '2026-09-26 01:06:17')
+(9998, 'sensor-3', 38.71, 9.09, 'vibracao', '2026-09-26 01:06:16')
+(9997, 'sensor-1', 22.81, 9.29, 'vibracao', '2026-09-26 01:06:15')
+(9996, 'sensor-1', 48.93, 8.09, 'vibracao', '2026-09-26 01:06:13')
+(9995, 'sensor-1', 54.84, 8.96, 'vibracao', '2026-09-26 01:06:11')
+(9994, 'sensor-1', 91.12, 1.07, 'temperatura', '2026-09-26 01:06:05')
+(9993, 'sensor-2', 38.97, 8.03, 'vibracao', '2026-09-26 01:06:03')
